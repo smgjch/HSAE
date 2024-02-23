@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+e58c3798-5ef7-5caf-93df-e65d15fce532	12070	case	69efde94-a9f9-49ff-9c82-028c35940eda	Synchronous malignancy	Notification	2012-11-10T00:00:00	Approved	Pt with synchronous malignancy of the thryroid.

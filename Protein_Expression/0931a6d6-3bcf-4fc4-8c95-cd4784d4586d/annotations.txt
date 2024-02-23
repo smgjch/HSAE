@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+a22a218f-287e-5af0-99a3-ea4ab8880184	12072	case	547de7d8-c2f1-41d7-a0b4-cc6f39712301	Synchronous malignancy	Notification	2012-11-10T00:00:00	Approved	Pt with synchronous malignancy of the thyroid.

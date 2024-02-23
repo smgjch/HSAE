@@ -1,0 +1,3 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+7381d676-4622-59a1-bdc5-a2cce0ac31fb	12084	case	fa2d4258-3ee4-4d53-8ef2-9700b5cf38d6	Neoadjuvant therapy	Notification	2012-11-10T00:00:00	Approved	Patient was treated with neo-adjuvant radiation.
+839d75e6-e024-5859-8fe9-b65f70e4cecb	28362	case	fa2d4258-3ee4-4d53-8ef2-9700b5cf38d6	Case submitted is found to be a recurrence after submission	Notification	2015-05-18T00:00:00	Approved	TSS confirmed the case sent for TCGA was a recurrence.

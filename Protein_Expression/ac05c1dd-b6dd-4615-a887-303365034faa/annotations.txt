@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+ae1192e7-b660-5fbe-81f1-861923a99a21	12029	case	730c3b27-24d5-4a80-b659-db54cd2bc4fa	Synchronous malignancy	Notification	2012-11-10T00:00:00	Approved	Pt with synchronous malignancy of bilateral lung cancers.

@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+af0ad9f1-d7c1-5b18-a584-90f08599493c	11838	case	8ebe8c25-5ef9-42d4-9414-8313227b673f	Prior malignancy	Notification	2012-10-31T00:00:00	Approved	Prior malignancy oral cancer. No systemic chemotherapy or radiation.

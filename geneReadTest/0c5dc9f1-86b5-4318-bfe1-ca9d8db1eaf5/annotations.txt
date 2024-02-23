@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+af957803-e602-51c7-8008-4db4893d0bd1	22380	case	06f0cf45-3840-44b2-bfc5-18eb980b8f68	Neoadjuvant therapy	Notification	2014-09-26T00:00:00	Approved	Patient received neo-adjuvant radiation prior to resection.

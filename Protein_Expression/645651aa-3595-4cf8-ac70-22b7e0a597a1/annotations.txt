@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+68fa5a05-ca23-5862-a7b1-30261ac16241	12081	case	96415324-6859-41eb-8d07-be4e6f7d9781	Neoadjuvant therapy	Notification	2012-11-10T00:00:00	Approved	Patient received neo-adjuvant radiation, cisplatin and flourouracil prior to procurement of TCGA tumor.

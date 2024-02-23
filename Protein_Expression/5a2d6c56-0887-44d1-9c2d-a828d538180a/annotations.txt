@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+8c1d1086-9207-576b-bc79-3ce66aed560d	12082	case	a4cb2c52-15e2-45c8-aff9-23339217d167	Neoadjuvant therapy	Notification	2012-11-10T00:00:00	Approved	Patient was treated with neo-adjuvant radiation.

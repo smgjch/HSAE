@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+23326cfc-7e1e-5179-bd52-54a1e54e16e2	11803	case	bd62a587-6fe1-47ce-918d-055f2b38bb0e	Prior malignancy	Notification	2012-10-31T00:00:00	Approved	Prior malignancy prostate cancer and R KIRC. No systemic chemotherapy or radiation.

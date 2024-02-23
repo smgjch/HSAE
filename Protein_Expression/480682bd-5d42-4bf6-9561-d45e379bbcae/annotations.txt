@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+96447dad-3deb-50b6-bd85-98c3ac314f48	22379	case	6715b957-0d48-439c-8cd7-bd9b204d39b0	Case submitted is found to be a recurrence after submission	Notification	2014-09-26T00:00:00	Approved	Patient diagnosed and had prior treatment (radiation) 1 year prior to procurement of the TCGA specimen. The TSS did confirm the TCGA tumor was a recurrence.

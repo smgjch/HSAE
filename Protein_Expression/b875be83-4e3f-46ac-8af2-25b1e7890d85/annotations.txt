@@ -1,0 +1,3 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+40bba0a5-81f0-5b93-b47d-fce1506d5890	11836	case	839b660c-98fe-4468-a2b3-408594350250	Prior malignancy	Notification	2012-10-31T00:00:00	Approved	Prior malignancy follicular lymphoma, no treatment. Prior malignancy DLBCL treated with R-CHOP and radiation.
+60b9592d-5c2f-5a62-8cea-d1649ce3c54c	12073	case	839b660c-98fe-4468-a2b3-408594350250	History of unacceptable prior treatment related to a prior/other malignancy	Notification	2012-11-10T00:00:00	Approved	Prior malignancy follicular lymphoma, no treatment. Prior malignancy DLBCL treated with R-CHOP and radiation.

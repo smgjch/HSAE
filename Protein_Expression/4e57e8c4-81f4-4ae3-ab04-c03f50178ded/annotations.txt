@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+b6f94b8e-5fea-5024-a607-1bd92eb2c92e	11802	case	17b17d91-c3df-4b89-9c10-4db069aff656	Prior malignancy	Notification	2012-10-31T00:00:00	Approved	Prior malignancy SCC. No systemic chemotherapy or radiation.

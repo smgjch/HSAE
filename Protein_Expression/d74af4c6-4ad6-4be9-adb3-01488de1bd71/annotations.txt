@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+d25c878f-6208-5674-8211-c89f562217ce	11835	case	deefdd62-4d35-40c9-ad4c-0b593f35cff7	Prior malignancy	Notification	2012-10-31T00:00:00	Approved	Prior malignancy verrucous carcinoma of the maxilla. No systemic chemotherapy or radiation.

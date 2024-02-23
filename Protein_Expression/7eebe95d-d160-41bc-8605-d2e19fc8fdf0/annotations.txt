@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+d3d54e59-83cd-5896-9911-0b647e4405b6	11847	case	67eae8b3-3bd2-4e87-af78-ffe8221f318d	Prior malignancy	Notification	2012-10-31T00:00:00	Approved	Prior malignancy melanoma R forearm. No systemic chemotherapy or radiation.
