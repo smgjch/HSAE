@@ -1,0 +1,121 @@
+PMID- 33616276
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210922
+LR  - 20210922
+IS  - 1582-4934 (Electronic)
+IS  - 1582-1838 (Print)
+IS  - 1582-1838 (Linking)
+VI  - 25
+IP  - 8
+DP  - 2021 Apr
+TI  - A novel hypoxia gene signature indicates prognosis and immune microenvironments 
+      characters in patients with hepatocellular carcinoma.
+PG  - 3772-3784
+LID - 10.1111/jcmm.16249 [doi]
+AB  - Due to the lack of a suitable gene signature, it is difficult to assess the 
+      hypoxic exposure of HCC tissues. The clinical value of assessing hypoxia in HCC 
+      is short of tissue-level evidence. We tried to establish a robust and 
+      HCC-suitable hypoxia signature using microarray analysis and a robust rank 
+      aggregation algorithm. Based on the hypoxia signature, we obtained a 
+      hypoxia-associated HCC subtypes system using unsupervised hierarchical clustering 
+      and a hypoxia score system was provided using gene set variation analysis. A 
+      novel signature containing 21 stable hypoxia-related genes was constructed to 
+      effectively indicate the exposure of hypoxia in HCC tissues. The signature was 
+      validated by qRT-PCR and compared with other published hypoxia signatures in 
+      multiple large-size HCC cohorts. The subtype of HCC derived from this signature 
+      had different prognosis and other clinical characteristics. The hypoxia score 
+      obtained from the signature could be used to indicate clinical characteristics 
+      and predict prognoses of HCC patients. Moreover, we reveal a landscape of immune 
+      microenvironments in patients with different hypoxia score. In conclusion, we 
+      identified a novel HCC-suitable 21-gene hypoxia signature that could be used to 
+      estimate the hypoxia exposure in HCC tissues and indicated prognosis and a series 
+      of important clinical features in HCCs. It may enable the development of 
+      personalized counselling or treatment strategies for HCC patients with different 
+      levels of hypoxia exposure.
+CI  - © 2021 The Authors. Journal of Cellular and Molecular Medicine published by 
+      Foundation for Cellular and Molecular Medicine and John Wiley & Sons Ltd.
+FAU - Zhang, Qiangnu
+AU  - Zhang Q
+AD  - Department of Hepatobiliary and Pancreas Surgery, The Second Clinical Medical 
+      College, Jinan University (Shenzhen People's Hospital), Shenzhen, Guangdong, 
+      China.
+AD  - Integrated Chinese and Western Medicine Postdoctoral Research Station, Jinan 
+      University, Guangzhou, China.
+FAU - Qiao, Lijun
+AU  - Qiao L
+AD  - Department of Hepatobiliary and Pancreas Surgery, The Second Clinical Medical 
+      College, Jinan University (Shenzhen People's Hospital), Shenzhen, Guangdong, 
+      China.
+AD  - Integrated Chinese and Western Medicine Postdoctoral Research Station, Jinan 
+      University, Guangzhou, China.
+FAU - Liao, Juan
+AU  - Liao J
+AUID- ORCID: 0000-0003-4883-8382
+AD  - Department of Gastroenterology, West China School of Public Health and West China 
+      Fourth Hospital, Sichuan University, Chengdu, China.
+FAU - Liu, Quan
+AU  - Liu Q
+AD  - Department of Hepatobiliary and Pancreas Surgery, The Second Clinical Medical 
+      College, Jinan University (Shenzhen People's Hospital), Shenzhen, Guangdong, 
+      China.
+AD  - Integrated Chinese and Western Medicine Postdoctoral Research Station, Jinan 
+      University, Guangzhou, China.
+FAU - Liu, Pengyu
+AU  - Liu P
+AD  - Department of Gastroenterology and Hepatology, Erasmus MC-University Medical 
+      Center, Rotterdam, NY, USA.
+FAU - Liu, Liping
+AU  - Liu L
+AUID- ORCID: 0000-0002-9129-7107
+AD  - Department of Hepatobiliary and Pancreas Surgery, The Second Clinical Medical 
+      College, Jinan University (Shenzhen People's Hospital), Shenzhen, Guangdong, 
+      China.
+AD  - Department of Hepatobiliary and Pancreas Surgery, the First Affiliated Hospital, 
+      Southern University of Science and Technology, Shenzhen, Guangdong, China.
+LA  - eng
+GR  - KQJSCX20180321164801762/The Science and Technology Innovation Commission of 
+      Shenzhen/
+GR  - 20GJHZ0231/The International Cooperation in Science and Technology/Research and 
+      Development Program of Sichuan Province/
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20210222
+PL  - England
+TA  - J Cell Mol Med
+JT  - Journal of cellular and molecular medicine
+JID - 101083777
+RN  - 0 (Biomarkers, Tumor)
+SB  - IM
+MH  - Biomarkers, Tumor/*genetics
+MH  - Carcinoma, Hepatocellular/genetics/immunology/*pathology
+MH  - Gene Expression Profiling
+MH  - *Gene Expression Regulation, Neoplastic
+MH  - Humans
+MH  - Hypoxia/*physiopathology
+MH  - Liver Neoplasms/genetics/immunology/*pathology
+MH  - Prognosis
+MH  - *Transcriptome
+MH  - Tumor Microenvironment/*immunology
+PMC - PMC8051726
+OTO - NOTNLM
+OT  - HCC
+OT  - gene signature
+OT  - hypoxia
+OT  - microenvironment
+OT  - prognosis
+COIS- The authors declare no potential conflicts of interest.
+EDAT- 2021/02/23 06:00
+MHDA- 2021/09/23 06:00
+CRDT- 2021/02/22 09:20
+PHST- 2020/11/01 00:00 [revised]
+PHST- 2020/07/29 00:00 [received]
+PHST- 2020/12/17 00:00 [accepted]
+PHST- 2021/02/23 06:00 [pubmed]
+PHST- 2021/09/23 06:00 [medline]
+PHST- 2021/02/22 09:20 [entrez]
+AID - JCMM16249 [pii]
+AID - 10.1111/jcmm.16249 [doi]
+PST - ppublish
+SO  - J Cell Mol Med. 2021 Apr;25(8):3772-3784. doi: 10.1111/jcmm.16249. Epub 2021 Feb 
+      22.

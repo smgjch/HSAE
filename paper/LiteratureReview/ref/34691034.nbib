@@ -1,0 +1,110 @@
+PMID- 34691034
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20211227
+LR  - 20211227
+IS  - 1664-3224 (Electronic)
+IS  - 1664-3224 (Linking)
+VI  - 12
+DP  - 2021
+TI  - Development and Verification of the Hypoxia- and Immune-Associated Prognostic 
+      Signature for Pancreatic Ductal Adenocarcinoma.
+PG  - 728062
+LID - 10.3389/fimmu.2021.728062 [doi]
+LID - 728062
+AB  - We aim to construct a hypoxia- and immune-associated risk score model to predict 
+      the prognosis of patients with pancreatic ductal adenocarcinoma (PDAC). By 
+      unsupervised consensus clustering algorithms, we generate two different hypoxia 
+      clusters. Then, we screened out 682 hypoxia-associated and 528 immune-associated 
+      PDAC differentially expressed genes (DEGs) of PDAC using Pearson correlation 
+      analysis based on the Cancer Genome Atlas (TCGA) and Genotype-Tissue Expression 
+      project (GTEx) dataset. Seven hypoxia and immune-associated signature genes 
+      (S100A16, PPP3CA, SEMA3C, PLAU, IL18, GDF11, and NR0B1) were identified to 
+      construct a risk score model using the Univariate Cox regression and the Least 
+      Absolute Shrinkage and Selection Operator (LASSO) Cox regression, which 
+      stratified patients into high- and low-risk groups and were further validated in 
+      the GEO and ICGC cohort. Patients in the low-risk group showed superior overall 
+      survival (OS) to their high-risk counterparts (p < 0.05). Moreover, it was 
+      suggested by multivariate Cox regression that our constructed hypoxia-associated 
+      and immune-associated prognosis signature might be used as the independent factor 
+      for prognosis prediction (p < 0.001). By CIBERSORT and ESTIMATE algorithms, we 
+      discovered that patients in high-risk groups had lower immune score, stromal 
+      score, and immune checkpoint expression such as PD-L1, and different immunocyte 
+      infiltration states compared with those low-risk patients. The mutation spectrum 
+      also differs between high- and low-risk groups. To sum up, our hypoxia- and 
+      immune-associated prognostic signature can be used as an approach to stratify the 
+      risk of PDAC.
+CI  - Copyright © 2021 Chen, Huang, Zang, Gao, Zhu and Yu.
+FAU - Chen, Dongjie
+AU  - Chen D
+AD  - Department of Hepatopancreatobiliary Surgery, The Third Xiangya Hospital, Central 
+      South University, Changsha, China.
+FAU - Huang, Hui
+AU  - Huang H
+AD  - Department of Hepatopancreatobiliary Surgery, The Third Xiangya Hospital, Central 
+      South University, Changsha, China.
+FAU - Zang, Longjun
+AU  - Zang L
+AD  - Department of Hepatopancreatobiliary Surgery, The Third Xiangya Hospital, Central 
+      South University, Changsha, China.
+FAU - Gao, Wenzhe
+AU  - Gao W
+AD  - Department of Hepatopancreatobiliary Surgery, The Third Xiangya Hospital, Central 
+      South University, Changsha, China.
+FAU - Zhu, Hongwei
+AU  - Zhu H
+AD  - Department of Hepatopancreatobiliary Surgery, The Third Xiangya Hospital, Central 
+      South University, Changsha, China.
+FAU - Yu, Xiao
+AU  - Yu X
+AD  - Department of Hepatopancreatobiliary Surgery, The Third Xiangya Hospital, Central 
+      South University, Changsha, China.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Validation Study
+DEP - 20211006
+PL  - Switzerland
+TA  - Front Immunol
+JT  - Frontiers in immunology
+JID - 101560960
+RN  - 0 (Biomarkers, Tumor)
+SB  - IM
+MH  - Biomarkers, Tumor/*genetics
+MH  - Carcinoma, Pancreatic Ductal/*genetics/immunology/metabolism
+MH  - DNA Mutational Analysis
+MH  - Databases, Genetic
+MH  - *Gene Expression Profiling
+MH  - Humans
+MH  - Mutation
+MH  - Pancreatic Neoplasms/*genetics/immunology/metabolism
+MH  - Predictive Value of Tests
+MH  - Reproducibility of Results
+MH  - Retrospective Studies
+MH  - Risk Assessment
+MH  - Risk Factors
+MH  - *Transcriptome
+MH  - Tumor Hypoxia/*genetics
+MH  - Tumor Microenvironment/*genetics
+PMC - PMC8526937
+OTO - NOTNLM
+OT  - hypoxia
+OT  - immune
+OT  - microenvironment
+OT  - pancreatic ductal adenocarcinoma
+OT  - prognosis
+COIS- The authors declare that the research was conducted in the absence of any 
+      commercial or financial relationships that could be construed as a potential 
+      conflict of interest.
+EDAT- 2021/10/26 06:00
+MHDA- 2021/12/28 06:00
+CRDT- 2021/10/25 06:25
+PHST- 2021/06/20 00:00 [received]
+PHST- 2021/09/13 00:00 [accepted]
+PHST- 2021/10/25 06:25 [entrez]
+PHST- 2021/10/26 06:00 [pubmed]
+PHST- 2021/12/28 06:00 [medline]
+AID - 10.3389/fimmu.2021.728062 [doi]
+PST - epublish
+SO  - Front Immunol. 2021 Oct 6;12:728062. doi: 10.3389/fimmu.2021.728062. eCollection 
+      2021.

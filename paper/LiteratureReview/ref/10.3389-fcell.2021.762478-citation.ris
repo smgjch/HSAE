@@ -1,0 +1,19 @@
+    
+TY  - JOUR 
+AU  - Hong, Shuo
+AU  - Zhang, Yueming
+AU  - Cao, Manming
+AU  - Lin, Anqi
+AU  - Yang, Qi
+AU  - Zhang, Jian
+AU  - Luo, Peng
+AU  - Guo, Linlang
+PY  - 2021    
+M3  - Original Research     
+TI  - Hypoxic Characteristic Genes Predict Response to Immunotherapy for Urothelial Carcinoma   
+JO  - Frontiers in Cell and Developmental Biology  
+UR  - https://www.frontiersin.org/articles/10.3389/fcell.2021.762478    
+VL  - 9      
+SN  - 2296-634X
+N2  - Objective: Resistance to immune checkpoint inhibitors (ICIs) has been a massive obstacle to ICI treatment in metastatic urothelial carcinoma (MUC). Recently, increasing evidence indicates the clinical importance of the association between hypoxia and immune status in tumor patients. Therefore, it is necessary to investigate the relationship between hypoxia and prognosis in metastatic urothelial carcinoma.Methods: Transcriptomic and clinical data from 348 MUC patients who underwent ICI treatment from a large phase 2 trial (IMvigor210) were investigated in this study. The cohort was randomly divided into two datasets, a training set (n = 213) and a testing set (n = 135). Data of hypoxia-related genes were downloaded from the molecular signatures database (MSigDB), and screened by univariate and multivariate Cox regression analysis to construct a prognosis-predictive model. The robustness of the model was evaluated in two melanoma cohorts. Furthermore, an external validation cohort, the bladder cancer cohort, from the Cancer Genome Atlas (TCGA) database, was t used to explore the mechanism of gene mutation, immune cell infiltration, signaling pathway enrichment, and drug sensitivity.Results: We categorized patients as the high- or low- risk group using a four-gene hypoxia risk model which we constructed. It was found that patients with high-risk scores had significantly worse overall survival (OS) compared with those with low-risk scores. The prognostic model covers 0.71 of the area under the ROC curve in the training set and 0.59 in the testing set, which is better than the survival prediction of MUC patients using the clinical characteristics. Mutation analysis results showed that deletion mutations in RB1, TP53, TSC1 and KDM6A were correlated with hypoxic status. Immune cell infiltration analysis illustrated that the infiltration T cells, B cells, Treg cells, and macrophages was correlated with hypoxia. Functional enrichment analysis revealed that a hypoxic microenvironment activated inflammatory pathways, glucose metabolism pathways, and immune-related pathways.Conclusion: In this investigation, a four-gene hypoxia risk model was developed to evaluate the degree of hypoxia and prognosis of ICI treatment, which showed a promising clinical prediction value in MUC. Furthermore, the hypoxia risk model revealed a close relationship between hypoxia and the tumor immune microenvironment.
+ER  - 

@@ -1,0 +1,18 @@
+TY  - JOUR
+AU  - Arafa, Ahmed
+AU  - El-Fishawy, Nawal
+AU  - Badawy, Mohammed
+AU  - Radad, Marwa
+PY  - 2023
+DA  - 2023/01/30
+TI  - RN-Autoencoder: Reduced Noise Autoencoder for classifying imbalanced cancer genomic data
+JO  - Journal of Biological Engineering
+SP  - 7
+VL  - 17
+IS  - 1
+AB  - In the current genomic era, gene expression datasets have become one of the main tools utilized in cancer classification. Both curse of dimensionality and class imbalance problems are inherent characteristics of these datasets. These characteristics have a negative impact on the performance of most classifiers when used to classify cancer using genomic datasets.
+SN  - 1754-1611
+UR  - https://doi.org/10.1186/s13036-022-00319-3
+DO  - 10.1186/s13036-022-00319-3
+ID  - Arafa2023
+ER  - 

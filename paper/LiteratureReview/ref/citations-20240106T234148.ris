@@ -1,0 +1,50 @@
+Provider: Silverchair
+Database: AmericanAssociationforCancerResearch
+Content: text/plain; charset="UTF-8"
+
+TY  - JOUR
+AU  - Brooks, Jill M.
+AU  - Menezes, Albert N.
+AU  - Ibrahim, Maha
+AU  - Archer, Lucinda
+AU  - Lal, Neeraj
+AU  - Bagnall, Christopher J.
+AU  - von Zeidler, Sandra V.
+AU  - Valentine, Helen R.
+AU  - Spruce, Rachel J.
+AU  - Batis, Nikolaos
+AU  - Bryant, Jennifer L.
+AU  - Hartley, Margaret
+AU  - Kaul, Baksho
+AU  - Ryan, Gordon B.
+AU  - Bao, Riyue
+AU  - Khattri, Arun
+AU  - Lee, Steven P.
+AU  - Ogbureke, Kalu U.E.
+AU  - Middleton, Gary
+AU  - Tennant, Daniel A.
+AU  - Beggs, Andrew D.
+AU  - Deeks, Jonathan
+AU  - West, Catharine M. L.
+AU  - Cazier, Jean-Baptiste
+AU  - Willcox, Benjamin E.
+AU  - Seiwert, Tanguy Y.
+AU  - Mehanna, Hisham
+T1  - Development and Validation of a Combined Hypoxia and Immune Prognostic Classifier for Head and Neck Cancer
+PY  - 2019
+Y1  - 2019/09/03
+DO  - 10.1158/1078-0432.CCR-18-3314
+JO  - Clinical Cancer Research
+JA  - Clin Cancer Res
+VL  - 25
+IS  - 17
+SP  - 5315
+EP  - 5328
+SN  - 1078-0432
+AB  - Intratumoral hypoxia and immunity have been correlated with patient outcome in various tumor settings. However, these factors are not currently considered for treatment selection in head and neck cancer (HNC) due to lack of validated biomarkers. Here we sought to develop a hypoxia-immune classifier with potential application in patient prognostication and prediction of response to targeted therapy.A 54-gene hypoxia-immune signature was constructed on the basis of literature review. Gene expression was analyzed in silico using the The Cancer Genome Atlas (TCGA) HNC dataset (n = 275) and validated using two independent cohorts (n = 130 and 123). IHC was used to investigate the utility of a simplified protein signature. The spatial distribution of hypoxia and immune markers was examined using multiplex immunofluorescence staining.Unsupervised hierarchical clustering of TCGA dataset (development cohort) identified three patient subgroups with distinct hypoxia-immune phenotypes and survival profiles: hypoxialow/immunehigh, hypoxiahigh/immunelow, and mixed, with 5-year overall survival (OS) rates of 71%, 51%, and 49%, respectively (P = 0.0015). The prognostic relevance of the hypoxia-immune gene signature was replicated in two independent validation cohorts. Only PD-L1 and intratumoral CD3 protein expression were associated with improved OS on multivariate analysis. Hypoxialow/immunehigh and hypoxiahigh/immunelow tumors were overrepresented in “inflamed” and “immune-desert” microenvironmental profiles, respectively. Multiplex staining demonstrated an inverse correlation between CA-IX expression and prevalence of intratumoral CD3+ T cells (r = −0.5464; P = 0.0377), further corroborating the transcription-based classification.We developed and validated a hypoxia-immune prognostic transcriptional classifier, which may have clinical application to guide the use of hypoxia modification and targeted immunotherapies for the treatment of HNC.
+Y2  - 1/6/2024
+UR  - https://doi.org/10.1158/1078-0432.CCR-18-3314
+ER  - 
+
+
+

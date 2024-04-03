@@ -1,0 +1,109 @@
+PMID- 32887635
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210514
+LR  - 20231112
+IS  - 1479-5876 (Electronic)
+IS  - 1479-5876 (Linking)
+VI  - 18
+IP  - 1
+DP  - 2020 Sep 4
+TI  - A hypoxia-related signature for clinically predicting diagnosis, prognosis and 
+      immune microenvironment of hepatocellular carcinoma patients.
+PG  - 342
+LID - 10.1186/s12967-020-02492-9 [doi]
+LID - 342
+AB  - BACKGROUND: Hypoxia plays an indispensable role in the development of 
+      hepatocellular carcinoma (HCC). However, there are few studies on the application 
+      of hypoxia molecules in the prognosis predicting of HCC. We aim to identify the 
+      hypoxia-related genes in HCC and construct reliable models for diagnosis, 
+      prognosis and recurrence of HCC patients as well as exploring the potential 
+      mechanism. METHODS: Differentially expressed genes (DEGs) analysis was performed 
+      using The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus (GEO) database 
+      and four clusters were determined by a consistent clustering analysis. Three DEGs 
+      closely related to overall survival (OS) were identified using Cox regression and 
+      LASSO analysis. Then the hypoxia-related signature was developed and validated in 
+      TCGA and International Cancer Genome Consortium (ICGC) database. The Gene Set 
+      Enrichment Analysis (GSEA) was performed to explore signaling pathways regulated 
+      by the signature. CIBERSORT was used for estimating the fractions of immune cell 
+      types. RESULTS: A total of 397 hypoxia-related DEGs in HCC were detected and 
+      three genes (PDSS1, CDCA8 and SLC7A11) among them were selected to construct a 
+      prognosis, recurrence and diagnosis model. Then patients were divided into high- 
+      and low-risk groups. Our hypoxia-related signature was significantly associated 
+      with worse prognosis and higher recurrence rate. The diagnostic model also 
+      accurately distinguished HCC from normal samples and nodules. Furthermore, the 
+      hypoxia-related signature could positively regulate immune response. Meanwhile, 
+      the high-risk group had higher fractions of macrophages, B memory cells and 
+      follicle-helper T cells, and exhibited higher expression of immunocheckpoints 
+      such as PD1and PDL1. CONCLUSIONS: Altogether, our study showed that 
+      hypoxia-related signature is a potential biomarker for diagnosis, prognosis and 
+      recurrence of HCC, and it provided an immunological perspective for developing 
+      personalized therapies.
+FAU - Zhang, Baohui
+AU  - Zhang B
+AD  - Department of Physiology, School of Life Science, China Medical University, No. 
+      77 Puhe Road, Shenyang North New AreaLiaoning Province, Shenyang, 110122, 
+      People's Republic of China.
+FAU - Tang, Bufu
+AU  - Tang B
+AD  - Department of Radiology, School of Medicine, Second Affiliated Hospital, Zhejiang 
+      University, Hangzhou, 310058, China.
+FAU - Gao, Jianyao
+AU  - Gao J
+AD  - Department of Radiation Oncology, the First Affiliated Hospital of China Medical 
+      University, Shenyang, China.
+FAU - Li, Jiatong
+AU  - Li J
+AD  - Department of Orthopedics, The First Affiliated Hospital of China Medical 
+      University, Shenyang, 110001, Liaoning, People's Republic of China.
+FAU - Kong, Lingming
+AU  - Kong L
+AD  - Department of General Surgery, Shengjing Hospital of China Medical University, 
+      Shenyang, 110004, China.
+FAU - Qin, Ling
+AU  - Qin L
+AUID- ORCID: 0000-0001-8717-3833
+AD  - Department of Physiology, School of Life Science, China Medical University, No. 
+      77 Puhe Road, Shenyang North New AreaLiaoning Province, Shenyang, 110122, 
+      People's Republic of China. qinlingling@yahoo.com.
+LA  - eng
+PT  - Journal Article
+DEP - 20200904
+PL  - England
+TA  - J Transl Med
+JT  - Journal of translational medicine
+JID - 101190741
+RN  - 0 (Biomarkers, Tumor)
+SB  - IM
+MH  - Biomarkers, Tumor/genetics
+MH  - *Carcinoma, Hepatocellular/diagnosis/genetics
+MH  - Gene Expression Profiling
+MH  - Gene Expression Regulation, Neoplastic
+MH  - Humans
+MH  - Hypoxia/genetics
+MH  - Kaplan-Meier Estimate
+MH  - *Liver Neoplasms/diagnosis/genetics
+MH  - Neoplasm Recurrence, Local/genetics
+MH  - Prognosis
+MH  - Tumor Microenvironment
+PMC - PMC7487492
+OTO - NOTNLM
+OT  - Diagnostic
+OT  - Hepatocellular carcinoma
+OT  - Hypoxia
+OT  - Immune microenvironment
+OT  - Prognostic
+COIS- The authors declare that they have no competing interests.
+EDAT- 2020/09/06 06:00
+MHDA- 2021/05/15 06:00
+CRDT- 2020/09/05 05:15
+PHST- 2020/03/19 00:00 [received]
+PHST- 2020/08/20 00:00 [accepted]
+PHST- 2020/09/05 05:15 [entrez]
+PHST- 2020/09/06 06:00 [pubmed]
+PHST- 2021/05/15 06:00 [medline]
+AID - 10.1186/s12967-020-02492-9 [pii]
+AID - 2492 [pii]
+AID - 10.1186/s12967-020-02492-9 [doi]
+PST - epublish
+SO  - J Transl Med. 2020 Sep 4;18(1):342. doi: 10.1186/s12967-020-02492-9.

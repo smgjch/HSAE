@@ -1,0 +1,17 @@
+TY  - JOUR
+T1  - Identification and validation of a prognostic signature related to hypoxic tumor microenvironment in cervical cancer
+A1  - Nie, Chenyu
+A1  - Qin, Haixia
+A1  - Zhang, Li
+Y1  - 2022/06/03
+N2  - Background Hypoxia is a common microenvironment condition in most malignant tumors and has been shown to be associated with adverse outcomes of cervical cancer patients. In this study, we investigated the effects of hypoxia-related genes on tumor progress to characterize the tumor hypoxic microenvironment.   Methods We retrieved a set of hypoxia-related genes from the Molecular Signatures Database and evaluated their prognostic value for cervical cancer. A hypoxia-based prognostic signature for cervical cancer was then developed and validated using tumor samples from two independent cohorts (TCGA-CESC and CGCI-HTMCP-CC cohorts). Finally, we validated the hypoxia prediction of ccHPS score in eight human cervical cancer cell lines treated with the hypoxic and normoxic conditions, and 286 tumor samples with hypoxic category (more or less) from Gene Expression Omnibus (GEO) database with accession GSE72723.   Results A risk signature model containing nine hypoxia-related genes was developed and validated in cervical cancer. Further analysis showed that this risk model could be an independent prognosis factor of cervical cancer, which reflects the condition of the hypoxic tumor microenvironment and its remodeling of cell metabolism and tumor immunity. Furthermore, a nomogram integrating the novel risk model and lymphovascular invasion status was developed, accurately predicting the 1-, 3- and 5-year prognosis with AUC values of 0.928, 0.916 and 0.831, respectively. These findings provided a better understanding of the hypoxic tumor microenvironment in cervical cancer and insights into potential new therapeutic strategies in improving cancer therapy.
+JF  - PLOS ONE
+JA  - PLOS ONE
+VL  - 17
+IS  - 6
+UR  - https://doi.org/10.1371/journal.pone.0269462
+SP  - e0269462
+EP  - 
+PB  - Public Library of Science
+M3  - doi:10.1371/journal.pone.0269462
+ER  - 

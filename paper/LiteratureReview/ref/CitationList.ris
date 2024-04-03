@@ -1,0 +1,20 @@
+TY  - JOUR
+A1  - Vinny, Pulikottil W.
+A1  - Garg, Rahul
+A1  - Padma Srivastava, MV
+A1  - Lal, Vivek
+A1  - Vishnu, Venugoapalan Y.
+Y1  - 2021
+JF  - Annals of Indian Academy of Neurology
+KW  - Critical appraisal
+KW  - deep learning
+KW  - machine learning
+KW  - neural networks
+ID  - 02223306-202124040-00005
+IS  - 4
+T1  - Critical Appraisal of a Machine Learning Paper: A Guide for the Neurologist
+UR  - https://journals.lww.com/annalsofian/fulltext/2021/24040/critical_appraisal_of_a_machine_learning_paper__a.5.aspx
+VL  - 24
+N2  - Machine learning (ML), a form of artificial intelligence (AI), is being increasingly employed in neurology. Reported performance metrics often match or exceed the efficiency of average clinicians. The neurologist is easily baffled by the underlying concepts and terminologies associated with ML studies. The superlative performance metrics of ML algorithms often hide the opaque nature of its inner workings. Questions regarding ML model's interpretability and reproducibility of its results in real-world scenarios, need emphasis. Given an abundance of time and information, the expert clinician should be able to deliver comparable predictions to ML models, a useful benchmark while evaluating its performance. Predictive performance metrics of ML models should not be confused with causal inference between its input and output. ML and clinical gestalt should compete in a randomized controlled trial before they can complement each other for screening, triaging, providing second opinions and modifying treatment.
+SN  - 0972-2327
+ER  - 

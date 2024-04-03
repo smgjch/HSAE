@@ -1,0 +1,97 @@
+PMID- 38001949
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20231128
+IS  - 2227-9059 (Print)
+IS  - 2227-9059 (Electronic)
+IS  - 2227-9059 (Linking)
+VI  - 11
+IP  - 11
+DP  - 2023 Nov 1
+TI  - Development of a Comprehensive Gene Signature Linking Hypoxia, Glycolysis, 
+      Lactylation, and Metabolomic Insights in Gastric Cancer through the Integration 
+      of Bulk and Single-Cell RNA-Seq Data.
+LID - 10.3390/biomedicines11112948 [doi]
+LID - 2948
+AB  - BACKGROUND: Hypoxia and anaerobic glycolysis are cancer hallmarks and sources of 
+      the metabolite lactate. Intriguingly, lactate-induced protein lactylation is 
+      considered a novel epigenetic mechanism that predisposes cells toward a malignant 
+      state. However, the significance of comprehensive 
+      hypoxia-glycolysis-lactylation-related genes (HGLRGs) in cancer is unclear. We 
+      aimed to construct a model centered around HGLRGs for predicting survival, 
+      metabolic features, drug responsiveness, and immune response in gastric cancer. 
+      METHODS: The integration of bulk and single-cell RNA-Seq data was achieved using 
+      data obtained from the TCGA and GEO databases to analyze HGLRG expression 
+      patterns. A HGLRG risk-score model was developed based on univariate Cox 
+      regression and a LASSO-Cox regression model and subsequently validated. 
+      Additionally, the relationships between the identified HGLRG signature and 
+      multiple metabolites, drug sensitivity and various cell clusters were explored. 
+      RESULTS: Thirteen genes were identified as constituting the HGLRG signature. 
+      Using this signature, we established predictive models, including HGLRG risk 
+      scores and nomogram and Cox regression models. The stratification of patients 
+      into high- and low-risk groups based on HGLRG risk scores showed a better 
+      prognosis in the latter. The high-risk group displayed increased sensitivity to 
+      cytotoxic drugs and targeted inhibitors. The expression of the HGLRG BGN 
+      displayed a strong correlation with amino acids and lipid metabolites. Notably, a 
+      significant difference in immune infiltration, such as that of M1 macrophages and 
+      CD8 T cells, was correlated with the HGLRG signature. The abundant DUSP1 within 
+      the mesenchymal components was highlighted by single-cell transcriptomics. 
+      CONCLUSION: The innovative HGLRG signature demonstrates efficacy in predicting 
+      survival and providing a practical clinical model for gastric cancer. The HGLRG 
+      signature reflects the internal metabolism, drug responsiveness, and immune 
+      microenvironment components of gastric cancer and is expected to boost patients' 
+      response to targeted therapy and immunotherapy.
+FAU - Zhang, Xiangqian
+AU  - Zhang X
+AD  - NHC Key Laboratory of Cancer Proteomics & State Local Joint Engineering 
+      Laboratroy for Anticancer Drugs, Department of Oncology, Xiangya Hospital, 
+      Central South University, Changsha 410008, China.
+FAU - Li, Yun
+AU  - Li Y
+AD  - NHC Key Laboratory of Cancer Proteomics & State Local Joint Engineering 
+      Laboratroy for Anticancer Drugs, Department of Oncology, Xiangya Hospital, 
+      Central South University, Changsha 410008, China.
+FAU - Chen, Yongheng
+AU  - Chen Y
+AUID- ORCID: 0000-0001-8139-6892
+AD  - NHC Key Laboratory of Cancer Proteomics & State Local Joint Engineering 
+      Laboratroy for Anticancer Drugs, Department of Oncology, Xiangya Hospital, 
+      Central South University, Changsha 410008, China.
+AD  - National Clinical Research Center for Geriatric Disorders, Xiangya Hospital, 
+      Central South University, Changsha 410008, China.
+LA  - eng
+GR  - 81974074/National Natural Science Foundation of China/
+GR  - 82172654/National Natural Science Foundation of China/
+GR  - 2021RC4012/the Hunan Provincial Science and Technology Department/
+PT  - Journal Article
+DEP - 20231101
+PL  - Switzerland
+TA  - Biomedicines
+JT  - Biomedicines
+JID - 101691304
+PMC - PMC10669360
+OTO - NOTNLM
+OT  - drug responsiveness
+OT  - gastric cancer
+OT  - glycolysis-related genes
+OT  - hypoxia-related genes
+OT  - immunotherapy
+OT  - lactylation-related genes
+OT  - prognostic model
+OT  - stomach adenocarcinoma
+OT  - tumor immune microenvironment
+COIS- The authors declare no conflict of interest.
+EDAT- 2023/11/25 12:43
+MHDA- 2023/11/25 12:44
+CRDT- 2023/11/25 01:07
+PHST- 2023/09/18 00:00 [received]
+PHST- 2023/10/17 00:00 [revised]
+PHST- 2023/10/27 00:00 [accepted]
+PHST- 2023/11/25 12:44 [medline]
+PHST- 2023/11/25 12:43 [pubmed]
+PHST- 2023/11/25 01:07 [entrez]
+AID - biomedicines11112948 [pii]
+AID - biomedicines-11-02948 [pii]
+AID - 10.3390/biomedicines11112948 [doi]
+PST - epublish
+SO  - Biomedicines. 2023 Nov 1;11(11):2948. doi: 10.3390/biomedicines11112948.

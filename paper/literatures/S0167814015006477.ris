@@ -1,0 +1,37 @@
+TY  - JOUR
+T1  - Comparative analysis of transcriptomics based hypoxia signatures in head- and neck squamous cell carcinoma
+AU  - Tawk, Bouchra
+AU  - Schwager, Christian
+AU  - Deffaa, Oliver
+AU  - Dyckhoff, Gerhard
+AU  - Warta, Rolf
+AU  - Linge, Annett
+AU  - Krause, Mechthild
+AU  - Weichert, Wilko
+AU  - Baumann, Michael
+AU  - Herold-Mende, Christel
+AU  - Debus, Jürgen
+AU  - Abdollahi, Amir
+JO  - Radiotherapy and Oncology
+VL  - 118
+IS  - 2
+SP  - 350
+EP  - 358
+PY  - 2016
+DA  - 2016/02/01/
+SN  - 0167-8140
+DO  - https://doi.org/10.1016/j.radonc.2015.11.027
+UR  - https://www.sciencedirect.com/science/article/pii/S0167814015006477
+KW  - Hypoxia
+KW  - Gene signatures
+KW  - Head and neck squamous cell carcinoma
+KW  - Transcriptomics
+AB  - Background and purpose
+Hypoxia renders tumors resistant to radiotherapy. However, the paucity of sensitive and reliable methods for detection of tumor hypoxia limits the translation of novel therapy strategies targeting this well-known resistance factor. We sought to investigate the ability of three previously discovered transcriptomics based hypoxia signatures to identify hypoxic tumors and consequently discriminate between patients with poor- vs. good prognosis.
+Material and methods
+Three different hypoxia gene signatures developed by Toustrup et al., Eustace et al. and Lendahl et al. were evaluated in an independent cohort consisting of 302 patients with head and neck squamous cell carcinoma (HNSCC). Clinical data as well as genome-wide RNA-sequencing based gene expression data were retrieved from The Cancer Genome Atlas (TCGA). Clustering and statistical analysis were performed using Statistical Utilities for Microarray and Omics data (SUMO) software package.
+Results
+The 15 gene hypoxia signature developed by Toustrup et al. as well as the 30 gene signature by Lendahl et al. successfully discriminated between HNSCC patients with poor vs. good prognosis. The 26 gene signature developed by Eustace et al. was prognostic in HNSCC patients treated with radiotherapy. The best prognostic value was achieved when a consensus cohort of patients was assigned, i.e., low- or high- degree of tumor hypoxia was found, by all three signatures. Interestingly, the number of signature genes could be successfully reduced to the only common gene across all three signatures, i.e., P4HA1, encoding prolyl-4-hydroxylase, alpha polypeptide I.
+Conclusions
+This is the first independent proof for the feasibility of hypoxia gene expression signatures as a prognostic tool in HNSCC patients.
+ER  - 

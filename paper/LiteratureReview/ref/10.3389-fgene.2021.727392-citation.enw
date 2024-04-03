@@ -1,0 +1,60 @@
+   
+%A Zhong,Jinman 
+%A Wu,Hang 
+%A Bu,Xiaoyin 
+%A Li,Weiru 
+%A Cai,Shengchun 
+%A Du,Meixue 
+%A Gao,Ya 
+%A Ping,Baohong 
+	
+%D 2021      
+	
+%J Frontiers in Genetics     
+	
+%C   
+   
+%F    
+	
+%G English    
+	
+%K Acute Myeloid Leukemia,Prognostic model,hypoxia,Metabolism,Immunity,Bone marrow microenvironment  
+	
+%Q    
+	
+%R 10.3389/fgene.2021.727392
+	
+%W     
+	
+%L     
+	
+%M     
+	
+%P    
+	
+%7     
+	
+%8 2021-October-26    
+	
+%9 Original Research    
+
+	
+%#     
+	
+%! Hypoxia affects the prognosis of leukemia
+	
+%*     
+	
+%<     
+	
+%T Establishment of Prognosis Model in Acute Myeloid Leukemia Based on Hypoxia Microenvironment, and Exploration of Hypoxia-Related Mechanisms  
+	
+%U https://www.frontiersin.org/articles/10.3389/fgene.2021.727392    
+	
+%V 12       
+	  
+%0 JOURNAL ARTICLE
+	
+%@ 1664-8021   
+
+%X Acute myeloid leukemia (AML) is a highly heterogeneous hematologic neoplasm with poor survival outcomes. However, the routine clinical features are not sufficient to accurately predict the prognosis of AML. The expression of hypoxia-related genes was associated with survival outcomes of a variety of hematologic and lymphoid neoplasms. We established an 18-gene signature-based hypoxia-related prognosis model (HPM) and a complex model that consisted of the HPM and clinical risk factors using machine learning methods. Both two models were able to effectively predict the survival of AML patients, which might contribute to improving risk classification. Differentially expressed genes analysis, Gene Ontology (GO) categories, and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis were performed to reveal the underlying functions and pathways implicated in AML development. To explore hypoxia-related changes in the bone marrow immune microenvironment, we used CIBERSORT to calculate and compare the proportion of 22 immune cells between the two groups with high and low hypoxia-risk scores. Enrichment analysis and immune cell composition analysis indicated that the biological processes and molecular functions of drug metabolism, angiogenesis, and immune cell infiltration of bone marrow play a role in the occurrence and development of AML, which might help us to evaluate several hypoxia-related metabolic and immune targets for AML therapy. 

@@ -1,0 +1,73 @@
+   
+%A Li,Jia 
+%A Qiao,Hao 
+%A Wu,Fei 
+%A Sun,Shiyu 
+%A Feng,Cong 
+%A Li,Chaofan 
+%A Yan,Wanjun 
+%A Lv,Wei 
+%A Wu,Huizi 
+%A Liu,Mengjie 
+%A Chen,Xi 
+%A Liu,Xuan 
+%A Wang,Weiwei 
+%A Cai,Yifan 
+%A Zhang,Yu 
+%A Zhou,Zhangjian 
+%A Zhang,Yinbin 
+%A Zhang,Shuqun 
+	
+%D 2022      
+	
+%J Frontiers in Immunology     
+	
+%C   
+   
+%F    
+	
+%G English    
+	
+%K breast cancer,hypoxia,lactate metabolism,Immunotherapy,Immune microenvironment (IME),machine learning,bioinformatics  
+	
+%Q    
+	
+%R 10.3389/fimmu.2022.998140
+	
+%W     
+	
+%L     
+	
+%M     
+	
+%P    
+	
+%7     
+	
+%8 2022-October-07    
+	
+%9 Original Research    
+
+%+ Zhangjian Zhou,Department of Oncology, The Second Affiliated Hospital of Xi’an Jiaotong University,China,shuqun_zhang1971@163.com
+%+ Yinbin Zhang,Department of Oncology, The Second Affiliated Hospital of Xi’an Jiaotong University,China,shuqun_zhang1971@163.com
+%+ Shuqun Zhang,Department of Oncology, The Second Affiliated Hospital of Xi’an Jiaotong University,China,shuqun_zhang1971@163.com
+	
+%#     
+	
+%! Hypoxia- and lactate metabolism-related signature
+	
+%*     
+	
+%<     
+	
+%T A novel hypoxia- and lactate metabolism-related signature to predict prognosis and immunotherapy responses for breast cancer by integrating machine learning and bioinformatic analyses  
+	
+%U https://www.frontiersin.org/articles/10.3389/fimmu.2022.998140    
+	
+%V 13       
+	  
+%0 JOURNAL ARTICLE
+	
+%@ 1664-3224   
+
+%X <sec>BackgroundBreast cancer is the most common cancer worldwide. Hypoxia and lactate metabolism are hallmarks of cancer. This study aimed to construct a novel hypoxia- and lactate metabolism-related gene signature to predict the survival, immune microenvironment, and treatment response of breast cancer patients.</sec><sec>MethodsRNA-seq and clinical data of breast cancer from The Cancer Genome Atlas database and Gene Expression Omnibus were downloaded. Hypoxia- and lactate metabolism-related genes were collected from publicly available data sources. The differentially expressed genes were identified using the “edgeR” R package. Univariate Cox regression, random survival forest (RSF), and stepwise multivariate Cox regression analyses were performed to construct the hypoxia-lactate metabolism-related prognostic model (HLMRPM). Further analyses, including functional enrichment, ESTIMATE, CIBERSORTx, Immune Cell Abundance Identifier (ImmuCellAI), TIDE, immunophenoscore (IPS), pRRophetic, and CellMiner, were performed to analyze immune status and treatment responses.</sec><sec>ResultsWe identified 181 differentially expressed hypoxia-lactate metabolism-related genes (HLMRGs), 24 of which were valuable prognostic genes. Using RSF and stepwise multivariate Cox regression analysis, five HLMRGs were included to establish the HLMRPM. According to the medium-risk score, patients were divided into high- and low-risk groups. Patients in the high-risk group had a worse prognosis than those in the low-risk group (P < 0.05). A nomogram was further built to predict overall survival (OS). Functional enrichment analyses showed that the low-risk group was enriched with immune-related pathways, such as antigen processing and presentation and cytokine-cytokine receptor interaction, whereas the high-risk group was enriched in mTOR and Wnt signaling pathways. CIBERSORTx and ImmuCellAI showed that the low-risk group had abundant anti-tumor immune cells, whereas in the high-risk group, immunosuppressive cells were dominant. Independent immunotherapy datasets (IMvigor210 and GSE78220), TIDE, IPS and pRRophetic analyses revealed that the low-risk group responded better to common immunotherapy and chemotherapy drugs.</sec><sec>ConclusionsWe constructed a novel prognostic signature combining lactate metabolism and hypoxia to predict OS, immune status, and treatment response of patients with breast cancer, providing a viewpoint for individualized treatment.</sec> 

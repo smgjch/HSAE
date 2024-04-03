@@ -1,0 +1,110 @@
+PMID- 34904882
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220610
+LR  - 20221202
+IS  - 1535-3699 (Electronic)
+IS  - 1535-3702 (Print)
+IS  - 1535-3699 (Linking)
+VI  - 247
+IP  - 11
+DP  - 2022 Jun
+TI  - Survival stratification for colorectal cancer via multi-omics integration using 
+      an autoencoder-based model.
+PG  - 898-909
+LID - 10.1177/15353702211065010 [doi]
+AB  - Prognosis stratification in colorectal cancer helps to address cancer 
+      heterogeneity and contributes to the improvement of tailored treatments for 
+      colorectal cancer patients. In this study, an autoencoder-based model was 
+      implemented to predict the prognosis of colorectal cancer via the integration of 
+      multi-omics data. DNA methylation, RNA-seq, and miRNA-seq data from The Cancer 
+      Genome Atlas (TCGA) database were integrated as input for the autoencoder, and 
+      175 transformed features were produced. The survival-related features were used 
+      to cluster the samples using k-means clustering. The autoencoder-based strategy 
+      was compared to the principal component analysis (PCA)-, t-distributed random 
+      neighbor embedded (t-SNE)-, non-negative matrix factorization (NMF)-, or 
+      individual Cox proportional hazards (Cox-PH)-based strategies. Using the 175 
+      transformed features, tumor samples were clustered into two groups (G1 and G2) 
+      with significantly different survival rates. The autoencoder-based strategy 
+      performed better at identifying survival-related features than the other 
+      transformation strategies. Further, the two survival groups were robustly 
+      validated using "hold-out" validation and five validation cohorts. Gene 
+      expression profiles, miRNA profiles, DNA methylation, and signaling pathway 
+      profiles varied from the poor prognosis group (G2) to the good prognosis group 
+      (G1). miRNA-mRNA networks were constructed using six differentially expressed 
+      miRNAs (let-7c, mir-34c, mir-133b, let-7e, mir-144, and mir-106a) and 19 
+      predicted target genes. The autoencoder-based computational framework could 
+      distinguish good prognosis samples from bad prognosis samples and facilitate a 
+      better understanding of the molecular biology of colorectal cancer.
+FAU - Song, Hu
+AU  - Song H
+AD  - Department of Gastrointestinal Surgery, the Affiliated Hospital of Xuzhou Medical 
+      University, Xuzhou, Jiangsu 221002, PR China.
+FAU - Ruan, Chengwei
+AU  - Ruan C
+AD  - Department of Anorectal Surgery, the Affiliated Hospital of Xuzhou Medical 
+      University, Xuzhou, Jiangsu 221002, PR China.
+FAU - Xu, Yixin
+AU  - Xu Y
+AD  - Department of Gastrointestinal Surgery, the Affiliated Hospital of Xuzhou Medical 
+      University, Xuzhou, Jiangsu 221002, PR China.
+FAU - Xu, Teng
+AU  - Xu T
+AD  - Department of Gastrointestinal Surgery, the Affiliated Hospital of Xuzhou Medical 
+      University, Xuzhou, Jiangsu 221002, PR China.
+FAU - Fan, Ruizhi
+AU  - Fan R
+AD  - Department of Gastrointestinal Surgery, the Affiliated Hospital of Xuzhou Medical 
+      University, Xuzhou, Jiangsu 221002, PR China.
+FAU - Jiang, Tao
+AU  - Jiang T
+AD  - Department of Gastrointestinal Surgery, the Affiliated Hospital of Xuzhou Medical 
+      University, Xuzhou, Jiangsu 221002, PR China.
+FAU - Cao, Meng
+AU  - Cao M
+AD  - Department of Gastrointestinal Surgery, the Affiliated Hospital of Xuzhou Medical 
+      University, Xuzhou, Jiangsu 221002, PR China.
+FAU - Song, Jun
+AU  - Song J
+AUID- ORCID: 0000-0003-4588-6522
+AD  - Department of Gastrointestinal Surgery, the Affiliated Hospital of Xuzhou Medical 
+      University, Xuzhou, Jiangsu 221002, PR China.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20211214
+PL  - Switzerland
+TA  - Exp Biol Med (Maywood)
+JT  - Experimental biology and medicine (Maywood, N.J.)
+JID - 100973463
+RN  - 0 (MicroRNAs)
+SB  - IM
+MH  - Cluster Analysis
+MH  - *Colorectal Neoplasms/genetics
+MH  - DNA Methylation/genetics
+MH  - Humans
+MH  - *MicroRNAs/genetics
+MH  - Transcriptome/genetics
+PMC - PMC9189567
+OTO - NOTNLM
+OT  - Autoencoder
+OT  - K-means clustering
+OT  - deep learning
+OT  - multi-omics
+OT  - survival
+COIS- DECLARATION OF CONFLICTING INTERESTS: The author(s) declare no potential 
+      conflicts of interest with respect to the research, authorship, and/or 
+      publication of this article.
+EDAT- 2021/12/15 06:00
+MHDA- 2022/06/11 06:00
+PMCR- 2022/12/01
+CRDT- 2021/12/14 12:13
+PHST- 2021/12/15 06:00 [pubmed]
+PHST- 2022/06/11 06:00 [medline]
+PHST- 2021/12/14 12:13 [entrez]
+PHST- 2022/12/01 00:00 [pmc-release]
+AID - 10.1177_15353702211065010 [pii]
+AID - 10.1177/15353702211065010 [doi]
+PST - ppublish
+SO  - Exp Biol Med (Maywood). 2022 Jun;247(11):898-909. doi: 10.1177/15353702211065010. 
+      Epub 2021 Dec 14.

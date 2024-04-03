@@ -1,0 +1,86 @@
+PMID- 33624645
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20211206
+LR  - 20211214
+IS  - 2515-4184 (Electronic)
+IS  - 2515-4184 (Linking)
+VI  - 17
+IP  - 2
+DP  - 2021 Apr 1
+TI  - Determination of hypoxia signature to predict prognosis and the tumor immune 
+      microenvironment in melanoma.
+PG  - 307-316
+LID - 10.1039/d0mo00159g [doi]
+AB  - Melanoma is one of the highly malignant skin tumors, the incidence and death of 
+      which continue to increase. The hypoxic microenvironment drives tumor growth, 
+      progression, and heterogeneity; it also triggers a cascade of immunosuppressive 
+      responses and affects the levels of T cells, macrophages, and natural killer 
+      cells. Here, we aim to develop a hypoxia-based gene signature for prognosis 
+      evaluation and help evaluate the status of hypoxia and the immune 
+      microenvironment in melanoma. Based on the data from The Cancer Genome Atlas 
+      (TCGA) and Gene Expression Omnibus (GEO) database, we performed integrated 
+      bioinformatics to analyze the hypoxia-related genes. Using Lasso Cox regression, 
+      a hypoxia model was constructed. The receiver operating characteristic and the 
+      Kaplan-Meier curve were used to evaluate the predictive capacity of the model. 
+      With the CIBERSORT algorithm, the abundance of 22 immune cells in the melanoma 
+      microenvironment was analyzed. A total of 20 hypoxia-related genes were 
+      significantly related to prognosis in the log-rank test. Lasso regression showed 
+      that FBP1, SDC3, FOXO3, IGFBP1, S100A4, EGFR, ISG20, CP, PPARGC1A, KIF5A, and 
+      DPYSL4 displayed the best features. Based on these genes, a hypoxia model was 
+      established, and the area under the curve for the model was 0.734. Furthermore, 
+      the hypoxia score was identified as an independent prognostic factor. Besides, 
+      the hypoxia score could also predict the immune microenvironment in melanoma. 
+      Down-regulated activated CD4 memory T cells, CD8 T cells, and M1-like 
+      macrophages, and up-regulated Tregs were observed in patients with a high hypoxia 
+      score. The hypoxia-related genes were identified, and the hypoxia score was found 
+      to be a prognostic factor for overall survival and a predictor for the immune 
+      microenvironment. Our findings provide new ideas for evaluation and require 
+      further validation in clinical practice.
+FAU - Shou, Yanhong
+AU  - Shou Y
+AD  - Department of Dermatology, Huashan Hospital, Fudan University, 12 Wulumuqi Zhong 
+      Road, Shanghai, P. R. China. yangyongsheng73512@126.com jinhuaxu@fudan.edu.cn.
+FAU - Yang, Lu
+AU  - Yang L
+FAU - Yang, Yongsheng
+AU  - Yang Y
+FAU - Zhu, Xiaohua
+AU  - Zhu X
+FAU - Li, Feng
+AU  - Li F
+FAU - Xu, Jinhua
+AU  - Xu J
+LA  - eng
+PT  - Journal Article
+DEP - 20210224
+PL  - England
+TA  - Mol Omics
+JT  - Molecular omics
+JID - 101713384
+RN  - 0 (Biomarkers, Tumor)
+RN  - 0 (Neoplasm Proteins)
+SB  - IM
+MH  - Aged
+MH  - Biomarkers, Tumor/genetics
+MH  - Female
+MH  - Gene Expression Regulation, Neoplastic/genetics
+MH  - Humans
+MH  - Kaplan-Meier Estimate
+MH  - Male
+MH  - Melanoma/epidemiology/*genetics/immunology/pathology
+MH  - Middle Aged
+MH  - Neoplasm Proteins/*genetics
+MH  - Prognosis
+MH  - Transcriptome/*genetics/immunology
+MH  - Tumor Hypoxia
+MH  - Tumor Microenvironment/*genetics/immunology
+EDAT- 2021/02/25 06:00
+MHDA- 2021/12/15 06:00
+CRDT- 2021/02/24 08:40
+PHST- 2021/02/25 06:00 [pubmed]
+PHST- 2021/12/15 06:00 [medline]
+PHST- 2021/02/24 08:40 [entrez]
+AID - 10.1039/d0mo00159g [doi]
+PST - ppublish
+SO  - Mol Omics. 2021 Apr 1;17(2):307-316. doi: 10.1039/d0mo00159g. Epub 2021 Feb 24.

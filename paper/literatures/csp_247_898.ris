@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+TY  - JOUR
+T1  - Survival stratification for colorectal cancer via multi-omics integration using an autoencoder-based model
+AU  - Song, Hu
+AU  - Ruan, Chengwei
+AU  - Xu, Yixin
+AU  - Xu, Teng
+AU  - Fan, Ruizhi
+AU  - Jiang, Tao
+AU  - Cao, Meng
+AU  - Song, Jun
+Y1  - 2021/12/14
+PY  - 2021
+DA  - 2022/06/01
+N1  - doi: 10.1177/15353702211065010
+DO  - 10.1177/15353702211065010
+T2  - Experimental Biology and Medicine
+JF  - Experimental Biology and Medicine
+JO  - Exp Biol Med (Maywood)
+SP  - 898
+EP  - 909
+VL  - 247
+IS  - 11
+PB  - SAGE Publications
+N2  - Prognosis stratification in colorectal cancer helps to address cancer heterogeneity and contributes to the improvement of tailored treatments for colorectal cancer patients. In this study, an autoencoder-based model was implemented to predict the prognosis of colorectal cancer via the integration of multi-omics data. DNA methylation, RNA-seq, and miRNA-seq data from The Cancer Genome Atlas (TCGA) database were integrated as input for the autoencoder, and 175 transformed features were produced. The survival-related features were used to cluster the samples using k-means clustering. The autoencoder-based strategy was compared to the principal component analysis (PCA)-, t-distributed random neighbor embedded (t-SNE)-, non-negative matrix factorization (NMF)-, or individual Cox proportional hazards (Cox-PH)-based strategies. Using the 175 transformed features, tumor samples were clustered into two groups (G1 and G2) with significantly different survival rates. The autoencoder-based strategy performed better at identifying survival-related features than the other transformation strategies. Further, the two survival groups were robustly validated using ?hold-out? validation and five validation cohorts. Gene expression profiles, miRNA profiles, DNA methylation, and signaling pathway profiles varied from the poor prognosis group (G2) to the good prognosis group (G1). miRNA?mRNA networks were constructed using six differentially expressed miRNAs (let-7c, mir-34c, mir-133b, let-7e, mir-144, and mir-106a) and 19 predicted target genes. The autoencoder-based computational framework could distinguish good prognosis samples from bad prognosis samples and facilitate a better understanding of the molecular biology of colorectal cancer.
+SN  - 1535-3702
+M3  - doi: 10.1177/15353702211065010
+UR  - https://doi.org/10.1177/15353702211065010
+Y2  - 2024/03/24
+ER  - 

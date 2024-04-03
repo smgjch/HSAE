@@ -1,0 +1,98 @@
+PMID- 32646413
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210215
+LR  - 20210215
+IS  - 1472-6947 (Electronic)
+IS  - 1472-6947 (Linking)
+VI  - 20
+IP  - Suppl 3
+DP  - 2020 Jul 9
+TI  - A multi-omics supervised autoencoder for pan-cancer clinical outcome endpoints 
+      prediction.
+PG  - 129
+LID - 10.1186/s12911-020-1114-3 [doi]
+LID - 129
+AB  - BACKGROUND: With the rapid development of sequencing technologies, collecting 
+      diverse types of cancer omics data become more cost-effective. Many computational 
+      methods attempted to represent and fuse multiple omics into a comprehensive view 
+      of cancer. However, different types of omics are related and heterogeneous. Most 
+      of the existing methods do not consider the difference between omics, so the 
+      biological knowledge of individual omics may not be fully excavated. And for a 
+      given task (e.g. predicting overall survival), these methods prefer to use sample 
+      similarity or domain knowledge to learn a more reasonable representation of 
+      omics, but it's not enough. METHODS: For the purpose of learning more useful 
+      representation for individual omics and fusing them to improve the prediction 
+      ability, we proposed an autoencoder-based method named MOSAE (Multi-omics 
+      Supervised Autoencoder). In our method, a specific autoencoder were designed for 
+      each omics according to their size of dimension to generate omics-specific 
+      representations. Then, a supervised autoencoder was constructed based on specific 
+      autoencoder by using labels to enforce each specific autoencoder to learn both 
+      omics-specific and task-specific representations. Finally, representations of 
+      different omics that generate from supervised autoencoders were fused in a 
+      traditional but powerful way, and the fused representation was used for 
+      subsequent predictive tasks. RESULTS: We applied our method over TCGA Pan-Cancer 
+      dataset to predict four different clinical outcome endpoints (OS, PFI, DFI, and 
+      DSS). Compared with traditional and state-of-the-art methods, MOSAE achieved 
+      better predictive performance. We also tested the effects of each improvement, 
+      which all have a positive effect on predictive performance. CONCLUSIONS: 
+      Predicting clinical outcome endpoints are very important for precision medicine 
+      and personalized medicine. And multi-omics fusion is an effective way to solve 
+      this problem. MOSAE is a powerful multi-omics fusion method, which can generate 
+      both omics-specific and task-specific representation for given endpoint 
+      predictive tasks and improve the predictive performance.
+FAU - Tan, Kaiwen
+AU  - Tan K
+AD  - Communication & Computer Network Lab of Guangdong, School of Computer Science & 
+      Engineering, South China University of Technology, Wushan Road, Guangzhou, 381, 
+      China.
+FAU - Huang, Weixian
+AU  - Huang W
+AD  - Communication & Computer Network Lab of Guangdong, School of Computer Science & 
+      Engineering, South China University of Technology, Wushan Road, Guangzhou, 381, 
+      China.
+FAU - Hu, Jinlong
+AU  - Hu J
+AD  - Communication & Computer Network Lab of Guangdong, School of Computer Science & 
+      Engineering, South China University of Technology, Wushan Road, Guangzhou, 381, 
+      China.
+FAU - Dong, Shoubin
+AU  - Dong S
+AD  - Communication & Computer Network Lab of Guangdong, School of Computer Science & 
+      Engineering, South China University of Technology, Wushan Road, Guangzhou, 381, 
+      China. sbdong@scut.edu.cn.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20200709
+PL  - England
+TA  - BMC Med Inform Decis Mak
+JT  - BMC medical informatics and decision making
+JID - 101088682
+SB  - IM
+MH  - Humans
+MH  - *Neoplasms/genetics
+MH  - Precision Medicine
+PMC - PMC7477832
+OTO - NOTNLM
+OT  - Autoencoder
+OT  - Endpoints
+OT  - Fusion
+OT  - Multic-omics
+OT  - Pan-Cancer
+OT  - Representation
+COIS- The authors declare that they have no competing interests.
+EDAT- 2020/07/11 06:00
+MHDA- 2021/02/16 06:00
+PMCR- 2020/07/09
+CRDT- 2020/07/11 06:00
+PHST- 2020/07/11 06:00 [entrez]
+PHST- 2020/07/11 06:00 [pubmed]
+PHST- 2021/02/16 06:00 [medline]
+PHST- 2020/07/09 00:00 [pmc-release]
+AID - 10.1186/s12911-020-1114-3 [pii]
+AID - 1114 [pii]
+AID - 10.1186/s12911-020-1114-3 [doi]
+PST - epublish
+SO  - BMC Med Inform Decis Mak. 2020 Jul 9;20(Suppl 3):129. doi: 
+      10.1186/s12911-020-1114-3.

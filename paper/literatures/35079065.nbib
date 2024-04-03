@@ -1,0 +1,95 @@
+PMID- 35079065
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220228
+LR  - 20240210
+IS  - 2045-2322 (Electronic)
+IS  - 2045-2322 (Linking)
+VI  - 12
+IP  - 1
+DP  - 2022 Jan 25
+TI  - Development and validation of a hypoxia-associated signature for lung 
+      adenocarcinoma.
+PG  - 1290
+LID - 10.1038/s41598-022-05385-7 [doi]
+LID - 1290
+AB  - Hypoxia is common in non-small cell lung cancer (NSCLC) and an attractive 
+      therapeutic target. As hypoxia-targeting treatments are effective in patients 
+      with the most hypoxic tumours, we aimed to develop a lung adenocarcinoma (LUAD) 
+      hypoxia-related gene expression signature. RNAseq was used to identify genes 
+      significantly differentially expressed under hypoxia (1% O(2)) in four LUAD cell 
+      lines. Identified genes were used for unsupervised clustering of a TCGA-LUAD 
+      training dataset (n = 252) and in a machine learning approach to build a 
+      hypoxia-related signature. Thirty-five genes were upregulated in common in three 
+      of the four lines and reduced in the training cohort to a 28-gene signature. The 
+      signature was prognostic in the TCGA training (HR 2.12, 95% CI 1.34-3.37, 
+      p = 0.0011) and test (n = 250; HR 2.13, 95% CI 1.32-3.45, p = 0.0016) datasets. 
+      The signature was prognostic for overall survival in a meta-analysis of nine 
+      other datasets (n = 1257; HR 2.08, 95% CI 1.60-2.70, p < 0.0001). The 28-gene 
+      LUAD hypoxia related signature can be taken forward for further validation using 
+      a suitable gene expression platform.
+CI  - © 2022. The Author(s).
+FAU - Lane, Brian
+AU  - Lane B
+AD  - Translational Radiobiology Group, Division of Cancer Sciences, University of 
+      Manchester, Manchester Academic Health Science Centre, Christie NHS Foundation 
+      Trust Hospital, Manchester, M20 4BX, UK.
+FAU - Khan, Mairah T
+AU  - Khan MT
+AD  - Translational Radiobiology Group, Division of Cancer Sciences, University of 
+      Manchester, Manchester Academic Health Science Centre, Christie NHS Foundation 
+      Trust Hospital, Manchester, M20 4BX, UK.
+FAU - Choudhury, Ananya
+AU  - Choudhury A
+AD  - Translational Radiobiology Group, Division of Cancer Sciences, University of 
+      Manchester, Manchester Academic Health Science Centre, Christie NHS Foundation 
+      Trust Hospital, Manchester, M20 4BX, UK.
+FAU - Salem, Ahmed
+AU  - Salem A
+AD  - Department Clinical Oncology, Christie NHS Foundation Trust Hospital, Manchester, 
+      M204BX, UK.
+FAU - West, Catharine M L
+AU  - West CML
+AD  - Translational Radiobiology Group, Division of Cancer Sciences, University of 
+      Manchester, Manchester Academic Health Science Centre, Christie NHS Foundation 
+      Trust Hospital, Manchester, M20 4BX, UK. Catharine.West@manchester.ac.uk.
+LA  - eng
+GR  - 28701/CRUK_/Cancer Research UK/United Kingdom
+GR  - C5759/A27412/CRUK_/Cancer Research UK/United Kingdom
+PT  - Journal Article
+PT  - Meta-Analysis
+PT  - Research Support, Non-U.S. Gov't
+PT  - Validation Study
+DEP - 20220125
+PL  - England
+TA  - Sci Rep
+JT  - Scientific reports
+JID - 101563288
+SB  - IM
+MH  - Adenocarcinoma of Lung/diagnosis/*genetics/immunology
+MH  - Carcinoma, Non-Small-Cell Lung/diagnosis/*genetics/immunology
+MH  - Cluster Analysis
+MH  - Gene Expression Regulation, Neoplastic
+MH  - Humans
+MH  - Hypoxia/*genetics
+MH  - Lung Neoplasms/diagnosis/*genetics/immunology
+MH  - Prognosis
+MH  - Transcriptome
+MH  - Up-Regulation/genetics
+PMC - PMC8789914
+COIS- The authors declare no competing interests.
+EDAT- 2022/01/27 06:00
+MHDA- 2022/03/01 06:00
+PMCR- 2022/01/25
+CRDT- 2022/01/26 05:29
+PHST- 2021/09/19 00:00 [received]
+PHST- 2021/12/06 00:00 [accepted]
+PHST- 2022/01/26 05:29 [entrez]
+PHST- 2022/01/27 06:00 [pubmed]
+PHST- 2022/03/01 06:00 [medline]
+PHST- 2022/01/25 00:00 [pmc-release]
+AID - 10.1038/s41598-022-05385-7 [pii]
+AID - 5385 [pii]
+AID - 10.1038/s41598-022-05385-7 [doi]
+PST - epublish
+SO  - Sci Rep. 2022 Jan 25;12(1):1290. doi: 10.1038/s41598-022-05385-7.

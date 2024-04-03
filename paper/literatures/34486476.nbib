@@ -1,0 +1,90 @@
+PMID- 34486476
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20211217
+LR  - 20220204
+IS  - 2165-5987 (Electronic)
+IS  - 2165-5979 (Print)
+IS  - 2165-5979 (Linking)
+VI  - 12
+IP  - 1
+DP  - 2021 Dec
+TI  - Integrated analysis of hypoxia-associated lncRNA signature to predict prognosis 
+      and immune microenvironment of lung adenocarcinoma patients.
+PG  - 6186-6200
+LID - 10.1080/21655979.2021.1973874 [doi]
+AB  - Lung adenocarcinoma (LUAD) represents the main lung cancer (LC) subtype that 
+      possesses a disappointing clinical outcome over the decades. Tumor hypoxia is 
+      closely bound up with dismal survival for malignant tumor cases. We identified 
+      hypoxia-associated long non-coding RNA (lncRNA) signature to be an explicit 
+      indicator for predicting prognosis. The present work acquired RNA-seq and 
+      associated clinical data from The Cancer Genome Atlas (TCGA) database. Consensus 
+      cluster analysis characterized the hypoxia status of LUAD patients. Cox 
+      regression analysis with the least absolute shrinkage and selection operator 
+      (LASSO) method determined significantly prognosis-related lncRNAs which were used 
+      to create a prognostic model. Diverse statistical approaches like the 
+      Kaplan-Meier curve, receiver operating characteristic (ROC) curve, and nomogram 
+      were adopted to verify the accuracy of the risk score. The potential immune 
+      environment landscape was unearthed by the CIBERSORT algorithm. Three 
+      hypoxia-related clusters were determined and 221 differentially expressed 
+      hypoxia-related lncRNAs were screened out. We developed a new predictive model 
+      based on seven lncRNAs (LINC00941, AC022784.1, AC079949.2, LINC00707, AL161431.1, 
+      AC010980.2 and AC090001.1). Kaplan-Meier curves and ROC plots uncovered the 
+      reliable predictive power of the risk score model. In addition, the 
+      immunosuppressive landscape was presented in the high-risk group by immune cell 
+      infiltration analysis. The seven hypoxia lncRNAs survival signature in our 
+      article are robust, accurate tools for predicting overall survival in LUAD 
+      patients.
+FAU - Shao, Jun
+AU  - Shao J
+AD  - Department of Cardiothoracic Surgery, The Second Affiliated Hospital of Nanjing 
+      Medical University, Nanjing, Jiangsu, China.
+FAU - Zhang, Boqing
+AU  - Zhang B
+AD  - Department of Cardiothoracic Surgery, The Second Affiliated Hospital of Nanjing 
+      Medical University, Nanjing, Jiangsu, China.
+FAU - Kuai, Lin
+AU  - Kuai L
+AD  - Department of Geriatric Medicine, The Second Affiliated Hospital of Nanjing 
+      Medical University, Nanjing, Jiangsu, China.
+FAU - Li, Qingguo
+AU  - Li Q
+AD  - Department of Cardiothoracic Surgery, The Second Affiliated Hospital of Nanjing 
+      Medical University, Nanjing, Jiangsu, China.
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Bioengineered
+JT  - Bioengineered
+JID - 101581063
+RN  - 0 (RNA, Long Noncoding)
+SB  - IM
+MH  - *Adenocarcinoma of Lung/diagnosis/genetics/immunology
+MH  - Humans
+MH  - Hypoxia/genetics/*metabolism
+MH  - *Lung Neoplasms/diagnosis/genetics/immunology
+MH  - Prognosis
+MH  - RNA, Long Noncoding/*genetics/metabolism
+MH  - Transcriptome/genetics/immunology
+MH  - Tumor Microenvironment/genetics/immunology
+PMC - PMC8806605
+OTO - NOTNLM
+OT  - Hypoxia
+OT  - TCGA
+OT  - lncRNA
+OT  - lung adenocarcinoma
+OT  - prognosis
+OT  - signature
+COIS- No potential conflict of interest was reported by the author(s).
+EDAT- 2021/09/07 06:00
+MHDA- 2021/12/18 06:00
+PMCR- 2021/09/04
+CRDT- 2021/09/06 08:53
+PHST- 2021/09/06 08:53 [entrez]
+PHST- 2021/09/07 06:00 [pubmed]
+PHST- 2021/12/18 06:00 [medline]
+PHST- 2021/09/04 00:00 [pmc-release]
+AID - 1973874 [pii]
+AID - 10.1080/21655979.2021.1973874 [doi]
+PST - ppublish
+SO  - Bioengineered. 2021 Dec;12(1):6186-6200. doi: 10.1080/21655979.2021.1973874.

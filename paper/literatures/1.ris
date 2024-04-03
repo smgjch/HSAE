@@ -1,0 +1,30 @@
+TY  - JOUR
+T1  - Prognostic implication of proteomic profiles in head and neck squamous cell carcinoma
+AU  - Wu, Donglei
+AU  - Gong, Pu
+AU  - Zeng, Qing
+AU  - Zhang, Wenhao
+AU  - Xie, Fei
+AU  - Zhou, Xincai
+JO  - Clinica Chimica Acta
+VL  - 509
+SP  - 304
+EP  - 309
+PY  - 2020
+DA  - 2020/10/01/
+SN  - 0009-8981
+DO  - https://doi.org/10.1016/j.cca.2020.06.022
+UR  - https://www.sciencedirect.com/science/article/pii/S0009898120302862
+KW  - Head and neck squamous cell carcinoma
+KW  - Prognosis
+KW  - Protein-protein network analysis
+KW  - Proteomic signature
+AB  - Background and objective
+Head and neck squamous cell carcinoma (HNSCC) is one of the malignant cancers with poor prognosis. However, clinicopathologic and histological criteria were finite to predict the prognosis of HNSCC. We aimed to characterize the proteomic profile of prognosis from HNSCC patients.
+Material and methods
+Reverse phase protein array (RPPA) data in HNSCC were downloaded from The Cancer Proteome Atlas (TCPA). Independent prognostic-related proteins (IPP) were screened by Cox regression model and Kaplan-Meier methods. IPP signature (IPPS) including selected proteins was conducted for prognostic prediction for HNSCC. Protein-protein network analysis and gene ontology (GO) enrichment were used to identify related functional proteins and pathways.
+Results
+Based on the IPP, IPPS for HNSCC was constructed: risk score = (1.541* IRF1) + (1.460 * SMAD4) + (1.396 * LKB1) + (0.746* Cyclin E2) + (0.618* Paxillin) + (0.499* p-PEA-15 (Ser116)). The IPPS in HNSCC showed good predictive performance (area under curve = 0.779) with moderate sensitivity and specificity. Protein-protein network analysis and functional enrichment indicated an implication of response to decreased oxygen levels in HNSCC.
+Conclusion
+The identified proteomic signature might function as a prognostic tool for the management of HNSCC and provide novel target for the treatment of HNSCC.
+ER  - 

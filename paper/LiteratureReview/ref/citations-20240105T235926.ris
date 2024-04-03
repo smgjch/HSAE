@@ -1,0 +1,30 @@
+Provider: Silverchair
+Database: Oxford University Press
+Content: text/plain; charset="UTF-8"
+
+TY  - JOUR
+AU  - Gui, Cheng-Peng
+AU  - Wei, Jin-Huan
+AU  - Chen, Yu-Hang
+AU  - Fu, Liang-Min
+AU  - Tang, Yi-Ming
+AU  - Cao, Jia-Zheng
+AU  - Chen, Wei
+AU  - Luo, Jun-Hang
+T1  - A new thinking: extended application of genomic selection to screen multiomics data for development of novel hypoxia-immune biomarkers and target therapy of clear cell renal cell carcinoma
+PY  - 2021
+Y1  - 2021/11/01
+DO  - 10.1093/bib/bbab173
+JO  - Briefings in Bioinformatics
+JA  - Brief Bioinform
+VL  - 22
+IS  - 6
+SP  - bbab173
+SN  - 1477-4054
+AB  - Increasing evidences show the clinical significance of the interaction between hypoxia and immune in clear cell renal cell carcinoma (ccRCC) microenvironment. However, reliable prognostic signatures based on a combination of hypoxia and immune have not been well established. Moreover, many studies have only used RNA-seq profiles to screen the prognosis feature of ccRCC. Presently, there is no comprehensive analysis of multiomics data to mine a better one. Thus, we try and get it. First, t-SNE and ssGSEA analysis were used to establish tumor subtypes related to hypoxia-immune, and we investigated the hypoxia-immune–related differences in three types of genetic or epigenetic characteristics (gene expression profiles, somatic mutation, and DNA methylation) by analyzing the multiomics data from The Cancer Genome Atlas (TCGA) portal. Additionally, a four-step strategy based on lasso regression and Cox regression was used to construct a satisfying prognostic model, with average 1-year, 3-year and 5-year areas under the curve (AUCs) equal to 0.806, 0.776 and 0.837. Comparing it with other nine known prognostic biomarkers and clinical prognostic scoring algorithms, the multiomics-based signature performs better. Then, we verified the gene expression differences in two external databases (ICGC and SYSU cohorts). Next, eight hub genes were singled out and seven hub genes were validated as prognostic genes in SYSU cohort. Furthermore, it was indicated high-risk patients have a better response for immunotherapy in immunophenoscore (IPS) analysis and TIDE algorithm. Meanwhile, estimated by GDSC and cMAP database, the high-risk patients showed sensitive responses to six chemotherapy drugs and six candidate small-molecule drugs. In summary, the signature can accurately predict the prognosis of ccRCC and may shed light on the development of novel hypoxia-immune biomarkers and target therapy of ccRCC.
+Y2  - 1/5/2024
+UR  - https://doi.org/10.1093/bib/bbab173
+ER  - 
+
+
+

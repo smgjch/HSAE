@@ -1,0 +1,22 @@
+TY  - EJOUR
+AU  - Franco, Edian F. 
+AU  - Rana, Pratip 
+AU  - Cruz, Aline 
+AU  - Calderón, Víctor V. 
+AU  - Azevedo, Vasco 
+AU  - Ramos, Rommel T. J. 
+AU  - Ghosh, Preetam 
+TI  - Performance Comparison of Deep Learning Autoencoders for Cancer Subtype Detection Using Multi-Omics Data
+T2  - Cancers
+PY  - 2021
+VL  - 13
+IS  - 9
+SN  - 2072-6694
+AB  - A heterogeneous disease such as cancer is activated through multiple pathways and different perturbations. Depending upon the activated pathway(s), the survival of the patients varies significantly and shows different efficacy to various drugs. Therefore, cancer subtype detection using genomics level data is a significant research problem. Subtype detection is often a complex problem, and in most cases, needs multi-omics data fusion to achieve accurate subtyping. Different data fusion and subtyping approaches have been proposed over the years, such as kernel-based fusion, matrix factorization, and deep learning autoencoders. In this paper, we compared the performance of different deep learning autoencoders for cancer subtype detection. We performed cancer subtype detection on four different cancer types from The Cancer Genome Atlas (TCGA) datasets using four autoencoder implementations. We also predicted the optimal number of subtypes in a cancer type using the silhouette score and found that the detected subtypes exhibit significant differences in survival profiles. Furthermore, we compared the effect of feature selection and similarity measures for subtype detection. For further evaluation, we used the Glioblastoma multiforme (GBM) dataset and identified the differentially expressed genes in each of the subtypes. The results obtained are consistent with other genomic studies and can be corroborated with the involved pathways and biological functions. Thus, it shows that the results from the autoencoders, obtained through the interaction of different datatypes of cancer, can be used for the prediction and characterization of patient subgroups and survival profiles.
+KW  - cancer subtype detection
+KW  - multi-omics data
+KW  - data integration
+KW  - autoencoder
+KW  - survival analysis
+DO  - 10.3390/cancers13092013
+ER  -

@@ -1,0 +1,62 @@
+   
+%A Liu,Zhi 
+%A Tang,Qiao 
+%A Qi,Tiezheng 
+%A Othmane,Belaydi 
+%A Yang,Zhe 
+%A Chen,Jinbo 
+%A Hu,Jiao 
+%A Zu,Xiongbing 
+	
+%D 2021      
+	
+%J Frontiers in Immunology     
+	
+%C   
+   
+%F    
+	
+%G English    
+	
+%K Bladder cancer,Tumor Microenvironment,hypoxia,Immunotherapy,chemotherapy,risk score  
+	
+%Q    
+	
+%R 10.3389/fimmu.2021.725223
+	
+%W     
+	
+%L     
+	
+%M     
+	
+%P    
+	
+%7     
+	
+%8 2021-August-13    
+	
+%9 Original Research    
+
+%+ Jiao Hu,Department of Urology, Xiangya Hospital, Central South University,China,whzuxb@163.com
+%+ Xiongbing Zu,Department of Urology, Xiangya Hospital, Central South University,China,whzuxb@163.com
+	
+%#     
+	
+%! A novel hypoxia risk score in BLCA
+	
+%*     
+	
+%<     
+	
+%T A Robust Hypoxia Risk Score Predicts the Clinical Outcomes and Tumor Microenvironment Immune Characters in Bladder Cancer  
+	
+%U https://www.frontiersin.org/articles/10.3389/fimmu.2021.725223    
+	
+%V 12       
+	  
+%0 JOURNAL ARTICLE
+	
+%@ 1664-3224   
+
+%X <sec>BackgroundBladder cancer (BLCA) is one of the most common urinary malignancies with poor prognosis. There is an unmet need to develop novel robust tools to predict prognosis and treatment efficacy for BLCA.</sec><sec>MethodsThe hypoxia-related genes were collected from the Molecular Signatures Database. The TCGA-BLCA cohort was downloaded from the Cancer Genome Atlas and then was randomly divided into training and internal validation sets. Two external validation cohorts were gathered from Gene Expression Omnibus. Also, another independent validation cohort (Xiangya cohort) was collected from our hospital. The Cox regression model with the LASSO algorithm was applied to develop the hypoxia risk score. Then, we correlated the hypoxia risk score with the clinical outcomes, the tumor microenvironment (TME) immune characteristics, and the efficacy prediction for several treatments, which included cancer immunotherapy, chemotherapy, radiotherapy, and targeted therapies.</sec><sec>ResultsHypoxia risk score was an independent prognostic factor. A high-risk score indicated an inflamed TME based on the evidence that hypoxia risk score positively correlated with the activities of several cancer immunity cycles and the infiltration levels of many tumor-infiltrating immune cells, such as CD8 + T cells, Dendritic cells, and NK cells. Consistently, the hypoxia risk score was positively related to the expression of several immune checkpoints, such as PD-L1, PD-1, CTLA-4, and LAG-3, as well as the T cell inflamed score. Furthermore, the hypoxia risk score positively correlated with the enrichment scores of most immunotherapy-positive gene signatures. Therefore, patients with higher risk score may be more sensitive to cancer immunotherapy. Meanwhile, the hypoxia risk score was positively related to the sensitivities of several chemotherapeutic drugs, including Cisplatin, Docetaxel, Paclitaxel, Bleomycin, Camptothecin, and Vinblastine. Similarly, the enrichment scores for radiotherapy-predicted pathways and EGFR ligands were higher in the high-risk score group. Conversely, the enrichment scores of several immunosuppressive oncogenic pathways were significantly higher in the low-risk score group, such as the WNT-β-catenin network, PPARG network, and FGFR3 network.</sec><sec>ConclusionsWe developed and validated a new hypoxia risk score, which could predict the clinical outcomes and the TME immune characteristics of BLCA. In general, the hypoxia risk score may aid in the precision medicine for BLCA.</sec> 

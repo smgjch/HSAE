@@ -1,0 +1,104 @@
+PMID- 35155681
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220328
+LR  - 20220501
+IS  - 2314-6141 (Electronic)
+IS  - 2314-6133 (Print)
+VI  - 2022
+DP  - 2022
+TI  - Establishment and External Validation of a Hypoxia-Derived Gene Signature for 
+      Robustly Predicting Prognosis and Therapeutic Responses in Glioblastoma 
+      Multiforme.
+PG  - 7858477
+LID - 10.1155/2022/7858477 [doi]
+LID - 7858477
+AB  - OBJECTIVE: Hypoxia presents a salient feature investigated in most solid tumors 
+      that holds key roles in cancer progression, including glioblastoma multiforme 
+      (GBM). Here, we aimed to construct a hypoxia-derived gene signature for 
+      identifying the high-risk GBM patients to guide adjuvant therapy and precision 
+      nursing based on signs of hypoxia. METHODS: We retrospectively analyzed the 
+      transcriptome profiling and clinicopathological characteristics of GBM from The 
+      Cancer Genome Atlas (TCGA) and Chinese Glioma Genome Atlas (CGGA) cohorts. A 
+      series of bioinformatic and machine learning methods were comprehensively applied 
+      for establishing a hypoxia-derived gene signature in prediction of overall 
+      survival, disease-free survival, disease-specific survival, and progression-free 
+      survival. The predictive efficacy of this model was assessed with receiver 
+      operator characteristic (ROC) and uni- and multivariate cox regression analysis. 
+      The associations of this signature with tumor microenvironment and 
+      immunotherapeutic response predictors were evaluated across GBM. RT-qPCR and 
+      western blotting were presented for validating the expression of ALDH3B1 and CTSZ 
+      in human glioma cell lines (U251, SHG-44, and U87) and normal glial cell line 
+      HEB. RESULTS: Among hallmarks of cancer, hypoxia acted as a prominent risk factor 
+      of GBM prognosis. A hypoxia-derived gene signature displayed efficient ability in 
+      predicting clinical outcomes. High risk score indicated undesirable prognosis, 
+      recurrence, and progression of GBM. Moreover, this risk score displayed positive 
+      correlations to immunity and stromal activation. Combining immunotherapeutic 
+      response predictors, high-risk patients more benefited from immunotherapy. 
+      ALDH3B1 and CTSZ expression had prominent upregulation in glioma cells than 
+      normal glial cells. CONCLUSION: Collectively, this hypoxia-derived gene signature 
+      could become a reliable biomarker for predicting prognosis and therapeutic 
+      response and providing theoretical support for hypoxia treatment and precision 
+      nursing of GBM patients.
+CI  - Copyright © 2022 Ke Wang et al.
+FAU - Wang, Ke
+AU  - Wang K
+AD  - Nursing Department, The Second Affiliated Hospital of Shandong First Medical 
+      University, Tai'an, 271000 Shandong, China.
+AD  - Philippine Women's University, 1743 Taft Avenue, 1004 Manila, Philippines.
+FAU - Lu, Yang
+AU  - Lu Y
+AD  - Neuro Intensive Care Unit, Taian City Central Hospital, Tai'an, 271000 Shandong, 
+      China.
+FAU - Liu, Zhihong
+AU  - Liu Z
+AD  - Department of Cerebral Hemorrhagic Diseases, Taian City Central Hospital, Tai'an, 
+      271000 Shandong, China.
+FAU - Diao, Min
+AU  - Diao M
+AD  - Pediatric Intensive Care Unit, The Second Affiliated Hospital of Shandong First 
+      Medical University, Tai'an, 271000 Shandong, China.
+FAU - Yang, Lin
+AU  - Yang L
+AUID- ORCID: 0000-0002-8344-3100
+AD  - Nursing Department, The Second Affiliated Hospital of Shandong First Medical 
+      University, Tai'an, 271000 Shandong, China.
+LA  - eng
+PT  - Journal Article
+PT  - Validation Study
+DEP - 20220204
+PL  - United States
+TA  - Biomed Res Int
+JT  - BioMed research international
+JID - 101600173
+RN  - 0 (Biomarkers, Tumor)
+SB  - IM
+MH  - Biomarkers, Tumor/analysis
+MH  - Brain Neoplasms/*genetics
+MH  - Cell Line, Tumor
+MH  - Databases, Genetic
+MH  - Female
+MH  - *Gene Expression Profiling
+MH  - Glioblastoma/*genetics
+MH  - Humans
+MH  - Hypoxia/*genetics
+MH  - *Machine Learning
+MH  - Male
+MH  - Middle Aged
+MH  - Predictive Value of Tests
+MH  - Prognosis
+MH  - Retrospective Studies
+PMC - PMC8837434
+COIS- The authors declare no conflicts of interest.
+EDAT- 2022/02/15 06:00
+MHDA- 2022/03/29 06:00
+CRDT- 2022/02/14 05:35
+PHST- 2021/11/11 00:00 [received]
+PHST- 2022/01/04 00:00 [accepted]
+PHST- 2022/02/14 05:35 [entrez]
+PHST- 2022/02/15 06:00 [pubmed]
+PHST- 2022/03/29 06:00 [medline]
+AID - 10.1155/2022/7858477 [doi]
+PST - epublish
+SO  - Biomed Res Int. 2022 Feb 4;2022:7858477. doi: 10.1155/2022/7858477. eCollection 
+      2022.

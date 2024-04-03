@@ -1,0 +1,26 @@
+TY  - JOUR
+T1  - Employing hypoxia characterization to predict tumour immune microenvironment, treatment sensitivity and prognosis in hepatocellular carcinoma
+AU  - Zeng, Fanhong
+AU  - Zhang, Yue
+AU  - Han, Xu
+AU  - Zeng, Min
+AU  - Gao, Yi
+AU  - Weng, Jun
+JO  - Computational and Structural Biotechnology Journal
+VL  - 19
+SP  - 2775
+EP  - 2789
+PY  - 2021
+DA  - 2021/01/01/
+SN  - 2001-0370
+DO  - https://doi.org/10.1016/j.csbj.2021.03.033
+UR  - https://www.sciencedirect.com/science/article/pii/S2001037021001057
+KW  - Hepatocellular carcinoma
+KW  - Hypoxia
+KW  - Gene set enrichment analysis
+KW  - Tumor immune microenvironment
+KW  - Risk model
+KW  - Treatment sensitivity
+KW  - Prognostic
+AB  - The hypoxic microenvironment was recognized as a major driving force of the malignant phenotype in hepatocellular carcinoma (HCC), which contributes to tumour immune microenvironment (TIM) remodeling and tumor progression. Dysregulated hypoxia-related genes (HRGs) result in treatment resistance and poor prognosis by reshaping tumor cellular activities and metabolism. Approaches to identify the relationship between hypoxia and tumor progression provided new sight for improving tumor treatment and prognosis. But, few practical tools, forecasting relationship between hypoxia, TIM, treatment sensitivity and prognosis in HCC were reported. Here, we pooled mRNA transcriptome and clinical pathology data from the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA), and later developed a hypoxia risk model including four HRGs (DCN, DDIT4, PRKCA and NDRG1). The high-risk group displayed poor clinical characteristics, a malignant phenotype with carcinogenesis/proliferation pathways activation (MTORC1 and E2F) and immunosuppressive TIM (decreased immune cell infiltrations and upregulated immunosuppressive cytokines). Meanwhile, activated B cells, effector memory CD8 T cells and EZH2 deregulation were associated with patient’s survival, which might be the core changes of HCC hypoxia. Finally, we validated the ability of the hypoxia risk model to predict treatment sensitivity and found high hypoxia risk patients had poor responses to HCC treatment, including surgical resection, Sorafenib, Transarterial Chemoembolization (TACE) and immunotherapy. In conclusion, based on 4 HRGs, we developed and validated a hypoxia risk model to reflect pathological features, evaluate TIM landscape, predict treatment sensitivity and compounds specific to hypoxia signatures in HCC patients.
+ER  - 

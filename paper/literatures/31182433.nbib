@@ -1,0 +1,226 @@
+PMID- 31182433
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200917
+LR  - 20240210
+IS  - 1557-3265 (Electronic)
+IS  - 1078-0432 (Linking)
+VI  - 25
+IP  - 17
+DP  - 2019 Sep 1
+TI  - Development and Validation of a Combined Hypoxia and Immune Prognostic Classifier 
+      for Head and Neck Cancer.
+PG  - 5315-5328
+LID - 10.1158/1078-0432.CCR-18-3314 [doi]
+AB  - PURPOSE: Intratumoral hypoxia and immunity have been correlated with patient 
+      outcome in various tumor settings. However, these factors are not currently 
+      considered for treatment selection in head and neck cancer (HNC) due to lack of 
+      validated biomarkers. Here we sought to develop a hypoxia-immune classifier with 
+      potential application in patient prognostication and prediction of response to 
+      targeted therapy. EXPERIMENTAL DESIGN: A 54-gene hypoxia-immune signature was 
+      constructed on the basis of literature review. Gene expression was analyzed in 
+      silico using the The Cancer Genome Atlas (TCGA) HNC dataset (n = 275) and 
+      validated using two independent cohorts (n = 130 and 123). IHC was used to 
+      investigate the utility of a simplified protein signature. The spatial 
+      distribution of hypoxia and immune markers was examined using multiplex 
+      immunofluorescence staining. RESULTS: Unsupervised hierarchical clustering of 
+      TCGA dataset (development cohort) identified three patient subgroups with 
+      distinct hypoxia-immune phenotypes and survival profiles: 
+      hypoxia(low)/immune(high), hypoxia(high)/immune(low), and mixed, with 5-year 
+      overall survival (OS) rates of 71%, 51%, and 49%, respectively (P = 0.0015). The 
+      prognostic relevance of the hypoxia-immune gene signature was replicated in two 
+      independent validation cohorts. Only PD-L1 and intratumoral CD3 protein 
+      expression were associated with improved OS on multivariate analysis. 
+      Hypoxia(low)/immune(high) and hypoxia(high)/immune(low) tumors were 
+      overrepresented in "inflamed" and "immune-desert" microenvironmental profiles, 
+      respectively. Multiplex staining demonstrated an inverse correlation between 
+      CA-IX expression and prevalence of intratumoral CD3(+) T cells (r = -0.5464; P = 
+      0.0377), further corroborating the transcription-based classification. 
+      CONCLUSIONS: We developed and validated a hypoxia-immune prognostic 
+      transcriptional classifier, which may have clinical application to guide the use 
+      of hypoxia modification and targeted immunotherapies for the treatment of HNC.
+CI  - ©2019 American Association for Cancer Research.
+FAU - Brooks, Jill M
+AU  - Brooks JM
+AD  - Institute of Head and Neck Studies and Education, University of Birmingham, 
+      Birmingham, United Kingdom.
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Menezes, Albert N
+AU  - Menezes AN
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Ibrahim, Maha
+AU  - Ibrahim M
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+AD  - South Egypt Cancer Institute, Assiut University, Assiut, Egypt.
+FAU - Archer, Lucinda
+AU  - Archer L
+AD  - Institute of Applied Health Research, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Lal, Neeraj
+AU  - Lal N
+AD  - Institute of Immunology and Immunotherapy, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Bagnall, Christopher J
+AU  - Bagnall CJ
+AUID- ORCID: 0000-0002-6562-8144
+AD  - Human Biomaterials Resource Centre, University of Birmingham, Birmingham, United 
+      Kingdom.
+FAU - von Zeidler, Sandra V
+AU  - von Zeidler SV
+AUID- ORCID: 0000-0002-8897-5747
+AD  - Department of Pathology, Federal University of Espírito Santo, Espírito Santo, 
+      Brazil.
+FAU - Valentine, Helen R
+AU  - Valentine HR
+AD  - Division of Cancer Sciences, University of Manchester, Christie Hospital, 
+      Manchester Academic Health Science Centre, Manchester, United Kingdom.
+FAU - Spruce, Rachel J
+AU  - Spruce RJ
+AD  - Institute of Head and Neck Studies and Education, University of Birmingham, 
+      Birmingham, United Kingdom.
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Batis, Nikolaos
+AU  - Batis N
+AUID- ORCID: 0000-0002-2305-7427
+AD  - Institute of Head and Neck Studies and Education, University of Birmingham, 
+      Birmingham, United Kingdom.
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Bryant, Jennifer L
+AU  - Bryant JL
+AD  - Institute of Head and Neck Studies and Education, University of Birmingham, 
+      Birmingham, United Kingdom.
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Hartley, Margaret
+AU  - Hartley M
+AD  - Institute of Head and Neck Studies and Education, University of Birmingham, 
+      Birmingham, United Kingdom.
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Kaul, Baksho
+AU  - Kaul B
+AD  - Institute of Metabolism and Systems Research, University of Birmingham, 
+      Birmingham, United Kingdom.
+FAU - Ryan, Gordon B
+AU  - Ryan GB
+AD  - Institute of Head and Neck Studies and Education, University of Birmingham, 
+      Birmingham, United Kingdom.
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Bao, Riyue
+AU  - Bao R
+AD  - The University of Chicago Medicine, Chicago, Illinois.
+FAU - Khattri, Arun
+AU  - Khattri A
+AD  - The University of Chicago Medicine, Chicago, Illinois.
+FAU - Lee, Steven P
+AU  - Lee SP
+AD  - Institute of Immunology and Immunotherapy, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Ogbureke, Kalu U E
+AU  - Ogbureke KUE
+AD  - Department of Diagnostic and Biomedical Sciences, The University of Texas Health 
+      Science Center at Houston, Houston, Texas.
+FAU - Middleton, Gary
+AU  - Middleton G
+AD  - Institute of Immunology and Immunotherapy, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Tennant, Daniel A
+AU  - Tennant DA
+AUID- ORCID: 0000-0003-0499-2732
+AD  - Institute of Metabolism and Systems Research, University of Birmingham, 
+      Birmingham, United Kingdom.
+FAU - Beggs, Andrew D
+AU  - Beggs AD
+AUID- ORCID: 0000-0003-0784-2967
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Deeks, Jonathan
+AU  - Deeks J
+AUID- ORCID: 0000-0002-8850-1971
+AD  - Institute of Applied Health Research, University of Birmingham, Birmingham, 
+      United Kingdom.
+AD  - NIHR Birmingham Biomedical Research Centre, University of Birmingham and 
+      University Hospitals Birmingham NHS Foundation Trust, Birmingham, United Kingdom.
+FAU - West, Catharine M L
+AU  - West CML
+AUID- ORCID: 0000-0002-0839-3449
+AD  - Division of Cancer Sciences, University of Manchester, Christie Hospital, 
+      Manchester Academic Health Science Centre, Manchester, United Kingdom.
+FAU - Cazier, Jean-Baptiste
+AU  - Cazier JB
+AUID- ORCID: 0000-0001-7581-9051
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Willcox, Benjamin E
+AU  - Willcox BE
+AD  - Institute of Immunology and Immunotherapy, University of Birmingham, Birmingham, 
+      United Kingdom.
+FAU - Seiwert, Tanguy Y
+AU  - Seiwert TY
+AD  - The University of Chicago Medicine, Chicago, Illinois.
+FAU - Mehanna, Hisham
+AU  - Mehanna H
+AUID- ORCID: 0000-0002-5544-6224
+AD  - Institute of Head and Neck Studies and Education, University of Birmingham, 
+      Birmingham, United Kingdom. h.mehanna@bham.ac.uk.
+AD  - Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, 
+      United Kingdom.
+LA  - eng
+GR  - 24757/CRUK_/Cancer Research UK/United Kingdom
+GR  - P30 CA014599/CA/NCI NIH HHS/United States
+GR  - UL1 TR002389/TR/NCATS NIH HHS/United States
+GR  - NIHR-RMFI-2016-07-28/DH_/Department of Health/United Kingdom
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+PT  - Validation Study
+DEP - 20190610
+PL  - United States
+TA  - Clin Cancer Res
+JT  - Clinical cancer research : an official journal of the American Association for 
+      Cancer Research
+JID - 9502500
+RN  - 0 (B7-H1 Antigen)
+RN  - 0 (Biomarkers, Tumor)
+RN  - 0 (CD274 protein, human)
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Aged, 80 and over
+MH  - B7-H1 Antigen/immunology/metabolism
+MH  - Biomarkers, Tumor/*analysis/genetics/immunology
+MH  - Cohort Studies
+MH  - Female
+MH  - Gene Expression Profiling/methods
+MH  - Gene Expression Regulation, Neoplastic
+MH  - Head and Neck Neoplasms/genetics/*immunology/*metabolism/pathology
+MH  - Humans
+MH  - Hypoxia/genetics/*immunology/*metabolism/pathology
+MH  - Lymphocytes, Tumor-Infiltrating/immunology
+MH  - Male
+MH  - Middle Aged
+MH  - Prognosis
+MH  - Retrospective Studies
+MH  - Survival Rate
+MH  - Young Adult
+EDAT- 2019/06/12 06:00
+MHDA- 2020/09/18 06:00
+CRDT- 2019/06/12 06:00
+PHST- 2018/11/20 00:00 [received]
+PHST- 2019/02/22 00:00 [revised]
+PHST- 2019/06/06 00:00 [accepted]
+PHST- 2019/06/12 06:00 [pubmed]
+PHST- 2020/09/18 06:00 [medline]
+PHST- 2019/06/12 06:00 [entrez]
+AID - 1078-0432.CCR-18-3314 [pii]
+AID - 10.1158/1078-0432.CCR-18-3314 [doi]
+PST - ppublish
+SO  - Clin Cancer Res. 2019 Sep 1;25(17):5315-5328. doi: 10.1158/1078-0432.CCR-18-3314. 
+      Epub 2019 Jun 10.

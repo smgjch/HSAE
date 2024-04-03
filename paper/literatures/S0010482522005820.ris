@@ -1,0 +1,24 @@
+TY  - JOUR
+T1  - Capturing the latent space of an Autoencoder for multi-omics integration and cancer subtyping
+AU  - Madhumita, 
+AU  - Paul, Sushmita
+JO  - Computers in Biology and Medicine
+VL  - 148
+SP  - 105832
+PY  - 2022
+DA  - 2022/09/01/
+SN  - 0010-4825
+DO  - https://doi.org/10.1016/j.compbiomed.2022.105832
+UR  - https://www.sciencedirect.com/science/article/pii/S0010482522005820
+KW  - Autoencoder
+KW  - Multi-omics integration
+KW  - Cancer subtyping
+KW  - Neural network
+KW  - Latent space
+AB  - Background and Objective:
+The motivation behind cancer subtyping is to identify subgroups of cancer patients with distinguishable phenotypes of clinical importance. It can assist in advancement of subtype-targeted based treatments. Subtype identification is a complicated task, therefore requires multi-omics data integration to identify the precise patients’ subgroup. Over the years, several computational attempts have been made to identify the cancer subtypes accurately using integrative multi-omics analysis. Some studies have used Autoencoders (AE) to capture multi-omics feature integration in lower dimensions for identifying subtypes in specific types of cancer. However, capturing the highly informative latent space by learning the deep architectures of AE to attain a satisfactory generalized performance is required. Therefore, in this study, a novel AE-assisted cancer subtyping framework is presented that utilizes the compressed latent space of a Sparse AE neural network for multi-omics clustering.
+Methods:
+The proposed framework first performs a supervised feature selection based on the survival status of the patients. The selected features from each of the omic data are passed to the AE. The information embedded in the latent space of the trained AE neural networks are then used for cancer subtyping using Spectral clustering. The AE architecture designed in this study exhaustively searches the best compression for multi-omics data by varying the number of neurons in the hidden layers and penalizing activations within the layers.
+Results and Conclusion:
+The proposed framework is applied to five different multi-omics cancer datasets taken from The Cancer Genome Atlas. It is observed that for getting a robust information bottleneck, a compression of 10–20% of the input features along with an L1 regularization penalty of 0.01 or 0.001 performs well for most of the cancer datasets. Clustering performed on this latent representation generates clusters with better silhouette scores and significantly varying survival patterns. For further biological assessment, differential expression analysis is performed between the identified subtypes of Glioblastoma multiforme (GBM), followed by enrichment analysis of the differentially expressed biomarkers. Several pathways and disease ontology terms coherent to GBM are found to be significantly associated. Varying responses of the identified GBM subtypes towards the drug Temozolomide is also tested to demonstrate its clinical importance. Hence, the study shows that AE-assisted multi-omics integration can be used for the prediction of clinically significant cancer subtypes.
+ER  - 

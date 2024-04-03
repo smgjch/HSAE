@@ -1,0 +1,18 @@
+TY  - JOUR
+AU  - Ellen, Jacob G.
+AU  - Jacob, Etai
+AU  - Nikolaou, Nikos
+AU  - Markuzon, Natasha
+PY  - 2023
+DA  - 2023/09/22
+TI  - Autoencoder-based multimodal prediction of non-small cell lung cancer survival
+JO  - Scientific Reports
+SP  - 15761
+VL  - 13
+IS  - 1
+AB  - The ability to accurately predict non-small cell lung cancer (NSCLC) patient survival is crucial for informing physician decision-making, and the increasing availability of multi-omics data offers the promise of enhancing prognosis predictions. We present a multimodal integration approach that leverages microRNA, mRNA, DNA methylation, long non-coding RNA (lncRNA) and clinical data to predict NSCLC survival and identify patient subtypes, utilizing denoising autoencoders for data compression and integration. Survival performance for patients with lung adenocarcinoma (LUAD) and squamous cell carcinoma (LUSC) was compared across modality combinations and data integration methods. Using The Cancer Genome Atlas data, our results demonstrate that survival prediction models combining multiple modalities outperform single modality models. The highest performance was achieved with a combination of only two modalities, lncRNA and clinical, at concordance indices (C-indices) of 0.69 ± 0.03 for LUAD and 0.62 ± 0.03 for LUSC. Models utilizing all five modalities achieved mean C-indices of 0.67 ± 0.04 and 0.63 ± 0.02 for LUAD and LUSC, respectively, while the best individual modality performance reached C-indices of 0.64 ± 0.03 for LUAD and 0.59 ± 0.03 for LUSC. Analysis of biological differences revealed two distinct survival subtypes with over 900 differentially expressed transcripts.
+SN  - 2045-2322
+UR  - https://doi.org/10.1038/s41598-023-42365-x
+DO  - 10.1038/s41598-023-42365-x
+ID  - Ellen2023
+ER  - 
