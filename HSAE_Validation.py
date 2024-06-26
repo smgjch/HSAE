@@ -161,7 +161,7 @@ class AE():
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=100,
+                epochs=2000,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
@@ -429,7 +429,7 @@ class WAE(AE):
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=100,
+                epochs=2000,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
@@ -486,7 +486,7 @@ class DAE(AE):
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=100,
+                epochs=2000,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
@@ -542,7 +542,7 @@ class WDAE(AE):
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=100,
+                epochs=2000,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
@@ -597,7 +597,7 @@ class SAE(AE):
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=100,
+                epochs=2000,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
@@ -653,7 +653,7 @@ class SWDAE(AE):
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=100,
+                epochs=2000,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
