@@ -1,0 +1,604 @@
+[
+    {
+        "DAE bottleneck_6": {
+            "LogisticRegression": 0.5638461538461538,
+            "SVM": 0.5983076923076924,
+            "RandomForest": 0.6136923076923078,
+            "KNN": 0.5904615384615385,
+            "GradientBoosting": 0.6329230769230769,
+            "AdaBoost": 0.579076923076923,
+            "NaiveBayes": 0.5713846153846154,
+            "DecisionTree": 0.5943076923076923,
+            "ExtraTrees": 0.6024615384615385,
+            "XGBoost": 0.570923076923077
+        }
+    },
+    {
+        "DAE bottleneck_7": {
+            "LogisticRegression": 0.4827692307692308,
+            "SVM": 0.5096923076923077,
+            "RandomForest": 0.555846153846154,
+            "KNN": 0.5672307692307692,
+            "GradientBoosting": 0.5633846153846154,
+            "AdaBoost": 0.5209230769230768,
+            "NaiveBayes": 0.49400000000000005,
+            "DecisionTree": 0.5064615384615385,
+            "ExtraTrees": 0.5860000000000001,
+            "XGBoost": 0.5443076923076923
+        }
+    },
+    {
+        "DAE bottleneck_8": {
+            "LogisticRegression": 0.5407692307692307,
+            "SVM": 0.5520000000000002,
+            "RandomForest": 0.5670769230769231,
+            "KNN": 0.6023076923076923,
+            "GradientBoosting": 0.5669230769230771,
+            "AdaBoost": 0.5293846153846153,
+            "NaiveBayes": 0.5561538461538461,
+            "DecisionTree": 0.5016923076923077,
+            "ExtraTrees": 0.5941538461538463,
+            "XGBoost": 0.5904615384615385
+        }
+    },
+    {
+        "DAE bottleneck_9": {
+            "LogisticRegression": 0.568,
+            "SVM": 0.5984615384615385,
+            "RandomForest": 0.5983076923076924,
+            "KNN": 0.5518461538461539,
+            "GradientBoosting": 0.5750769230769232,
+            "AdaBoost": 0.5446153846153846,
+            "NaiveBayes": 0.579076923076923,
+            "DecisionTree": 0.5676923076923077,
+            "ExtraTrees": 0.5713846153846154,
+            "XGBoost": 0.5827692307692308
+        }
+    },
+    {
+        "DAE bottleneck_10": {
+            "LogisticRegression": 0.5830769230769229,
+            "SVM": 0.5675384615384615,
+            "RandomForest": 0.5796923076923076,
+            "KNN": 0.578923076923077,
+            "GradientBoosting": 0.5718461538461538,
+            "AdaBoost": 0.5175384615384615,
+            "NaiveBayes": 0.5212307692307693,
+            "DecisionTree": 0.5403076923076924,
+            "ExtraTrees": 0.6063076923076923,
+            "XGBoost": 0.5793846153846153
+        }
+    },
+    {
+        "DAE bottleneck_11": {
+            "LogisticRegression": 0.5518461538461539,
+            "SVM": 0.5870769230769229,
+            "RandomForest": 0.6412307692307693,
+            "KNN": 0.6098461538461539,
+            "GradientBoosting": 0.6373846153846154,
+            "AdaBoost": 0.5872307692307692,
+            "NaiveBayes": 0.5793846153846153,
+            "DecisionTree": 0.5170769230769231,
+            "ExtraTrees": 0.6216923076923078,
+            "XGBoost": 0.591076923076923
+        }
+    },
+    {
+        "DAE bottleneck_12": {
+            "LogisticRegression": 0.5486153846153845,
+            "SVM": 0.5832307692307692,
+            "RandomForest": 0.6176923076923078,
+            "KNN": 0.6063076923076922,
+            "GradientBoosting": 0.5832307692307691,
+            "AdaBoost": 0.5483076923076922,
+            "NaiveBayes": 0.5718461538461539,
+            "DecisionTree": 0.5018461538461538,
+            "ExtraTrees": 0.614,
+            "XGBoost": 0.5833846153846153
+        }
+    },
+    {
+        "DAE bottleneck_13": {
+            "LogisticRegression": 0.556,
+            "SVM": 0.5752307692307692,
+            "RandomForest": 0.5749230769230769,
+            "KNN": 0.6063076923076923,
+            "GradientBoosting": 0.5976923076923077,
+            "AdaBoost": 0.5286153846153847,
+            "NaiveBayes": 0.5213846153846153,
+            "DecisionTree": 0.6023076923076923,
+            "ExtraTrees": 0.5635384615384617,
+            "XGBoost": 0.6021538461538463
+        }
+    },
+    {
+        "DAE bottleneck_14": {
+            "LogisticRegression": 0.5830769230769232,
+            "SVM": 0.5484615384615383,
+            "RandomForest": 0.6215384615384615,
+            "KNN": 0.5595384615384615,
+            "GradientBoosting": 0.5946153846153845,
+            "AdaBoost": 0.5712307692307691,
+            "NaiveBayes": 0.4976923076923077,
+            "DecisionTree": 0.5555384615384615,
+            "ExtraTrees": 0.5986153846153845,
+            "XGBoost": 0.5633846153846154
+        }
+    },
+    {
+        "DAE bottleneck_15": {
+            "LogisticRegression": 0.5869230769230769,
+            "SVM": 0.5755384615384614,
+            "RandomForest": 0.5906153846153848,
+            "KNN": 0.5404615384615384,
+            "GradientBoosting": 0.5718461538461538,
+            "AdaBoost": 0.5332307692307692,
+            "NaiveBayes": 0.5207692307692308,
+            "DecisionTree": 0.5833846153846153,
+            "ExtraTrees": 0.5986153846153845,
+            "XGBoost": 0.6173846153846154
+        }
+    },
+    {
+        "DAE bottleneck_16": {
+            "LogisticRegression": 0.5638461538461538,
+            "SVM": 0.5446153846153845,
+            "RandomForest": 0.571076923076923,
+            "KNN": 0.5367692307692307,
+            "GradientBoosting": 0.5406153846153845,
+            "AdaBoost": 0.5093846153846153,
+            "NaiveBayes": 0.49400000000000005,
+            "DecisionTree": 0.5707692307692307,
+            "ExtraTrees": 0.5947692307692307,
+            "XGBoost": 0.5596923076923078
+        }
+    },
+    {
+        "DAE bottleneck_17": {
+            "LogisticRegression": 0.6024615384615385,
+            "SVM": 0.5599999999999999,
+            "RandomForest": 0.5872307692307692,
+            "KNN": 0.5486153846153846,
+            "GradientBoosting": 0.5599999999999999,
+            "AdaBoost": 0.5441538461538462,
+            "NaiveBayes": 0.5516923076923077,
+            "DecisionTree": 0.5410769230769231,
+            "ExtraTrees": 0.595076923076923,
+            "XGBoost": 0.520923076923077
+        }
+    },
+    {
+        "DAE bottleneck_18": {
+            "LogisticRegression": 0.5675384615384615,
+            "SVM": 0.6140000000000001,
+            "RandomForest": 0.6063076923076923,
+            "KNN": 0.5672307692307692,
+            "GradientBoosting": 0.5983076923076924,
+            "AdaBoost": 0.5209230769230768,
+            "NaiveBayes": 0.5132307692307692,
+            "DecisionTree": 0.5558461538461538,
+            "ExtraTrees": 0.6173846153846154,
+            "XGBoost": 0.5749230769230771
+        }
+    },
+    {
+        "DAE bottleneck_19": {
+            "LogisticRegression": 0.5984615384615385,
+            "SVM": 0.6061538461538462,
+            "RandomForest": 0.5867692307692307,
+            "KNN": 0.5716923076923076,
+            "GradientBoosting": 0.6026153846153846,
+            "AdaBoost": 0.6260000000000001,
+            "NaiveBayes": 0.5438461538461539,
+            "DecisionTree": 0.5675384615384615,
+            "ExtraTrees": 0.6293846153846153,
+            "XGBoost": 0.622
+        }
+    },
+    {
+        "DAE bottleneck_20": {
+            "LogisticRegression": 0.564,
+            "SVM": 0.564,
+            "RandomForest": 0.5329230769230768,
+            "KNN": 0.5676923076923076,
+            "GradientBoosting": 0.5133846153846153,
+            "AdaBoost": 0.5638461538461538,
+            "NaiveBayes": 0.5213846153846153,
+            "DecisionTree": 0.5447692307692307,
+            "ExtraTrees": 0.556153846153846,
+            "XGBoost": 0.4786153846153846
+        }
+    },
+    {
+        "DAE bottleneck_21": {
+            "LogisticRegression": 0.5829230769230769,
+            "SVM": 0.5636923076923077,
+            "RandomForest": 0.6212307692307691,
+            "KNN": 0.5632307692307692,
+            "GradientBoosting": 0.5941538461538463,
+            "AdaBoost": 0.5673846153846155,
+            "NaiveBayes": 0.5169230769230769,
+            "DecisionTree": 0.5787692307692307,
+            "ExtraTrees": 0.5980000000000001,
+            "XGBoost": 0.5827692307692308
+        }
+    },
+    {
+        "DAE bottleneck_22": {
+            "LogisticRegression": 0.5601538461538461,
+            "SVM": 0.5907692307692307,
+            "RandomForest": 0.6755384615384615,
+            "KNN": 0.614,
+            "GradientBoosting": 0.6055384615384616,
+            "AdaBoost": 0.5672307692307692,
+            "NaiveBayes": 0.5170769230769231,
+            "DecisionTree": 0.5672307692307692,
+            "ExtraTrees": 0.6135384615384615,
+            "XGBoost": 0.6601538461538461
+        }
+    },
+    {
+        "DAE bottleneck_23": {
+            "LogisticRegression": 0.5912307692307692,
+            "SVM": 0.5987692307692307,
+            "RandomForest": 0.6170769230769231,
+            "KNN": 0.5864615384615386,
+            "GradientBoosting": 0.5947692307692307,
+            "AdaBoost": 0.5749230769230769,
+            "NaiveBayes": 0.5864615384615386,
+            "DecisionTree": 0.5824615384615385,
+            "ExtraTrees": 0.6061538461538463,
+            "XGBoost": 0.6215384615384616
+        }
+    },
+    {
+        "DAE bottleneck_24": {
+            "LogisticRegression": 0.5793846153846153,
+            "SVM": 0.6143076923076922,
+            "RandomForest": 0.6024615384615384,
+            "KNN": 0.5904615384615385,
+            "GradientBoosting": 0.5830769230769232,
+            "AdaBoost": 0.6060000000000001,
+            "NaiveBayes": 0.5712307692307693,
+            "DecisionTree": 0.5213846153846153,
+            "ExtraTrees": 0.6407692307692308,
+            "XGBoost": 0.5944615384615386
+        }
+    },
+    {
+        "DAE bottleneck_25": {
+            "LogisticRegression": 0.6216923076923078,
+            "SVM": 0.5795384615384614,
+            "RandomForest": 0.5753846153846153,
+            "KNN": 0.5755384615384614,
+            "GradientBoosting": 0.6215384615384616,
+            "AdaBoost": 0.5826153846153848,
+            "NaiveBayes": 0.5132307692307692,
+            "DecisionTree": 0.5178461538461538,
+            "ExtraTrees": 0.5872307692307691,
+            "XGBoost": 0.6176923076923078
+        }
+    },
+    {
+        "DAE bottleneck_26": {
+            "LogisticRegression": 0.5830769230769229,
+            "SVM": 0.6061538461538462,
+            "RandomForest": 0.6372307692307692,
+            "KNN": 0.568,
+            "GradientBoosting": 0.5676923076923076,
+            "AdaBoost": 0.5441538461538462,
+            "NaiveBayes": 0.5830769230769229,
+            "DecisionTree": 0.5292307692307692,
+            "ExtraTrees": 0.6063076923076923,
+            "XGBoost": 0.5832307692307692
+        }
+    },
+    {
+        "DAE bottleneck_27": {
+            "LogisticRegression": 0.5556923076923077,
+            "SVM": 0.5872307692307692,
+            "RandomForest": 0.6330769230769231,
+            "KNN": 0.5986153846153847,
+            "GradientBoosting": 0.5673846153846153,
+            "AdaBoost": 0.6058461538461538,
+            "NaiveBayes": 0.513076923076923,
+            "DecisionTree": 0.5678461538461538,
+            "ExtraTrees": 0.6024615384615385,
+            "XGBoost": 0.5793846153846153
+        }
+    },
+    {
+        "DAE bottleneck_28": {
+            "LogisticRegression": 0.5287692307692307,
+            "SVM": 0.5407692307692307,
+            "RandomForest": 0.5401538461538461,
+            "KNN": 0.5866153846153846,
+            "GradientBoosting": 0.5752307692307692,
+            "AdaBoost": 0.5176923076923077,
+            "NaiveBayes": 0.5516923076923077,
+            "DecisionTree": 0.5093846153846153,
+            "ExtraTrees": 0.5675384615384615,
+            "XGBoost": 0.5367692307692307
+        }
+    },
+    {
+        "DAE bottleneck_29": {
+            "LogisticRegression": 0.5987692307692306,
+            "SVM": 0.5601538461538461,
+            "RandomForest": 0.5755384615384614,
+            "KNN": 0.5870769230769229,
+            "GradientBoosting": 0.5753846153846153,
+            "AdaBoost": 0.5676923076923076,
+            "NaiveBayes": 0.517076923076923,
+            "DecisionTree": 0.5598461538461539,
+            "ExtraTrees": 0.5792307692307692,
+            "XGBoost": 0.5867692307692307
+        }
+    },
+    {
+        "DAE bottleneck_30": {
+            "LogisticRegression": 0.5795384615384614,
+            "SVM": 0.5792307692307692,
+            "RandomForest": 0.6253846153846153,
+            "KNN": 0.5869230769230769,
+            "GradientBoosting": 0.5832307692307692,
+            "AdaBoost": 0.5950769230769232,
+            "NaiveBayes": 0.5712307692307693,
+            "DecisionTree": 0.5446153846153845,
+            "ExtraTrees": 0.5752307692307692,
+            "XGBoost": 0.5833846153846153
+        }
+    },
+    {
+        "DAE bottleneck_31": {
+            "LogisticRegression": 0.5712307692307691,
+            "SVM": 0.5481538461538461,
+            "RandomForest": 0.6213846153846154,
+            "KNN": 0.5675384615384615,
+            "GradientBoosting": 0.5984615384615384,
+            "AdaBoost": 0.6210769230769231,
+            "NaiveBayes": 0.5327692307692308,
+            "DecisionTree": 0.6063076923076923,
+            "ExtraTrees": 0.5907692307692307,
+            "XGBoost": 0.5596923076923076
+        }
+    },
+    {
+        "DAE bottleneck_32": {
+            "LogisticRegression": 0.5446153846153845,
+            "SVM": 0.5947692307692307,
+            "RandomForest": 0.6607692307692308,
+            "KNN": 0.5907692307692307,
+            "GradientBoosting": 0.6721538461538461,
+            "AdaBoost": 0.5984615384615385,
+            "NaiveBayes": 0.5132307692307692,
+            "DecisionTree": 0.5716923076923076,
+            "ExtraTrees": 0.6138461538461539,
+            "XGBoost": 0.5793846153846153
+        }
+    },
+    {
+        "DAE bottleneck_33": {
+            "LogisticRegression": 0.5866153846153846,
+            "SVM": 0.5678461538461538,
+            "RandomForest": 0.5864615384615384,
+            "KNN": 0.5940000000000001,
+            "GradientBoosting": 0.5749230769230769,
+            "AdaBoost": 0.5443076923076923,
+            "NaiveBayes": 0.5906153846153845,
+            "DecisionTree": 0.5446153846153846,
+            "ExtraTrees": 0.6058461538461538,
+            "XGBoost": 0.5363076923076924
+        }
+    },
+    {
+        "DAE bottleneck_34": {
+            "LogisticRegression": 0.5524615384615383,
+            "SVM": 0.583076923076923,
+            "RandomForest": 0.61,
+            "KNN": 0.5983076923076924,
+            "GradientBoosting": 0.5947692307692307,
+            "AdaBoost": 0.5944615384615386,
+            "NaiveBayes": 0.5209230769230768,
+            "DecisionTree": 0.4943076923076923,
+            "ExtraTrees": 0.5673846153846153,
+            "XGBoost": 0.5947692307692306
+        }
+    },
+    {
+        "DAE bottleneck_35": {
+            "LogisticRegression": 0.6063076923076922,
+            "SVM": 0.5599999999999999,
+            "RandomForest": 0.6098461538461539,
+            "KNN": 0.587076923076923,
+            "GradientBoosting": 0.5946153846153845,
+            "AdaBoost": 0.5741538461538462,
+            "NaiveBayes": 0.5246153846153847,
+            "DecisionTree": 0.5983076923076924,
+            "ExtraTrees": 0.5867692307692307,
+            "XGBoost": 0.5943076923076923
+        }
+    },
+    {
+        "DAE bottleneck_36": {
+            "LogisticRegression": 0.6327692307692308,
+            "SVM": 0.5755384615384616,
+            "RandomForest": 0.6292307692307693,
+            "KNN": 0.5826153846153845,
+            "GradientBoosting": 0.6133846153846154,
+            "AdaBoost": 0.5483076923076924,
+            "NaiveBayes": 0.5364615384615383,
+            "DecisionTree": 0.5980000000000001,
+            "ExtraTrees": 0.5983076923076924,
+            "XGBoost": 0.6176923076923078
+        }
+    },
+    {
+        "DAE bottleneck_37": {
+            "LogisticRegression": 0.5443076923076923,
+            "SVM": 0.5599999999999999,
+            "RandomForest": 0.6447692307692308,
+            "KNN": 0.6023076923076923,
+            "GradientBoosting": 0.6372307692307693,
+            "AdaBoost": 0.6404615384615384,
+            "NaiveBayes": 0.5132307692307692,
+            "DecisionTree": 0.5750769230769232,
+            "ExtraTrees": 0.61,
+            "XGBoost": 0.6140000000000001
+        }
+    },
+    {
+        "DAE bottleneck_38": {
+            "LogisticRegression": 0.6176923076923077,
+            "SVM": 0.5752307692307692,
+            "RandomForest": 0.5793846153846153,
+            "KNN": 0.5867692307692307,
+            "GradientBoosting": 0.5561538461538461,
+            "AdaBoost": 0.5673846153846153,
+            "NaiveBayes": 0.5133846153846153,
+            "DecisionTree": 0.5753846153846153,
+            "ExtraTrees": 0.6255384615384615,
+            "XGBoost": 0.5253846153846153
+        }
+    },
+    {
+        "DAE bottleneck_39": {
+            "LogisticRegression": 0.5523076923076923,
+            "SVM": 0.5676923076923076,
+            "RandomForest": 0.6213846153846154,
+            "KNN": 0.5946153846153845,
+            "GradientBoosting": 0.5906153846153848,
+            "AdaBoost": 0.5904615384615386,
+            "NaiveBayes": 0.5209230769230768,
+            "DecisionTree": 0.5676923076923077,
+            "ExtraTrees": 0.6138461538461538,
+            "XGBoost": 0.5941538461538463
+        }
+    },
+    {
+        "DAE bottleneck_40": {
+            "LogisticRegression": 0.5827692307692308,
+            "SVM": 0.5446153846153846,
+            "RandomForest": 0.5675384615384615,
+            "KNN": 0.5446153846153845,
+            "GradientBoosting": 0.5944615384615384,
+            "AdaBoost": 0.5901538461538463,
+            "NaiveBayes": 0.5556923076923077,
+            "DecisionTree": 0.47030769230769226,
+            "ExtraTrees": 0.5947692307692307,
+            "XGBoost": 0.61
+        }
+    },
+    {
+        "DAE bottleneck_41": {
+            "LogisticRegression": 0.5830769230769229,
+            "SVM": 0.5907692307692308,
+            "RandomForest": 0.579076923076923,
+            "KNN": 0.5558461538461538,
+            "GradientBoosting": 0.6024615384615385,
+            "AdaBoost": 0.5601538461538461,
+            "NaiveBayes": 0.5713846153846154,
+            "DecisionTree": 0.578923076923077,
+            "ExtraTrees": 0.5904615384615385,
+            "XGBoost": 0.5907692307692308
+        }
+    },
+    {
+        "DAE bottleneck_42": {
+            "LogisticRegression": 0.5640000000000001,
+            "SVM": 0.5832307692307692,
+            "RandomForest": 0.5983076923076924,
+            "KNN": 0.5753846153846153,
+            "GradientBoosting": 0.5753846153846153,
+            "AdaBoost": 0.6138461538461538,
+            "NaiveBayes": 0.5518461538461539,
+            "DecisionTree": 0.5518461538461539,
+            "ExtraTrees": 0.6060000000000001,
+            "XGBoost": 0.5986153846153845
+        }
+    },
+    {
+        "DAE bottleneck_43": {
+            "LogisticRegression": 0.63,
+            "SVM": 0.5796923076923076,
+            "RandomForest": 0.6026153846153847,
+            "KNN": 0.5867692307692307,
+            "GradientBoosting": 0.5712307692307693,
+            "AdaBoost": 0.5409230769230768,
+            "NaiveBayes": 0.5327692307692308,
+            "DecisionTree": 0.5449230769230768,
+            "ExtraTrees": 0.5829230769230771,
+            "XGBoost": 0.5635384615384614
+        }
+    },
+    {
+        "DAE bottleneck_44": {
+            "LogisticRegression": 0.5750769230769232,
+            "SVM": 0.5636923076923077,
+            "RandomForest": 0.6370769230769231,
+            "KNN": 0.5903076923076922,
+            "GradientBoosting": 0.5987692307692308,
+            "AdaBoost": 0.6064615384615384,
+            "NaiveBayes": 0.4938461538461539,
+            "DecisionTree": 0.5601538461538461,
+            "ExtraTrees": 0.6295384615384615,
+            "XGBoost": 0.6487692307692308
+        }
+    },
+    {
+        "DAE bottleneck_45": {
+            "LogisticRegression": 0.5324615384615385,
+            "SVM": 0.5598461538461539,
+            "RandomForest": 0.5829230769230769,
+            "KNN": 0.5755384615384614,
+            "GradientBoosting": 0.5672307692307692,
+            "AdaBoost": 0.5633846153846154,
+            "NaiveBayes": 0.4978461538461539,
+            "DecisionTree": 0.5326153846153847,
+            "ExtraTrees": 0.5638461538461538,
+            "XGBoost": 0.5519999999999999
+        }
+    },
+    {
+        "DAE bottleneck_46": {
+            "LogisticRegression": 0.5829230769230771,
+            "SVM": 0.6021538461538463,
+            "RandomForest": 0.6329230769230769,
+            "KNN": 0.6178461538461539,
+            "GradientBoosting": 0.6221538461538463,
+            "AdaBoost": 0.5516923076923077,
+            "NaiveBayes": 0.5478461538461539,
+            "DecisionTree": 0.5678461538461538,
+            "ExtraTrees": 0.5947692307692307,
+            "XGBoost": 0.5907692307692307
+        }
+    },
+    {
+        "DAE bottleneck_47": {
+            "LogisticRegression": 0.5983076923076924,
+            "SVM": 0.5907692307692307,
+            "RandomForest": 0.6290769230769231,
+            "KNN": 0.602,
+            "GradientBoosting": 0.6255384615384615,
+            "AdaBoost": 0.5666153846153846,
+            "NaiveBayes": 0.5941538461538463,
+            "DecisionTree": 0.599076923076923,
+            "ExtraTrees": 0.6372307692307692,
+            "XGBoost": 0.6407692307692308
+        }
+    },
+    {
+        "DAE bottleneck_48": {
+            "LogisticRegression": 0.6335384615384616,
+            "SVM": 0.6061538461538463,
+            "RandomForest": 0.6178461538461539,
+            "KNN": 0.6258461538461538,
+            "GradientBoosting": 0.6292307692307691,
+            "AdaBoost": 0.502,
+            "NaiveBayes": 0.5556923076923077,
+            "DecisionTree": 0.5793846153846154,
+            "ExtraTrees": 0.6101538461538462,
+            "XGBoost": 0.6136923076923078
+        }
+    }
+]
