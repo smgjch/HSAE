@@ -12,7 +12,7 @@ from tensorflow.keras.layers import Input, Dense
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras import layers, models, regularizers
 import tensorflow as tf
-from keras.callbacks import ModelCheckpoint
+from tensorflow.keras.callbacks import ModelCheckpoint
 
 from sklearn.model_selection import cross_val_score, KFold
 from sklearn.model_selection import train_test_split
@@ -106,7 +106,7 @@ plt.show()
 
 # # AE
 
-# In[ ]:
+# In[89]:
 
 
 class AE():
@@ -148,7 +148,7 @@ class AE():
         self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
 
         # Compile the autoencoder
-        self.autoencoder.compile(optimizer='SGD', loss='mse')
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
 
         self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
                              monitor='val_loss', 
@@ -161,7 +161,7 @@ class AE():
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=2000,
+                epochs=100,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
@@ -386,7 +386,7 @@ class AE():
 
 
 
-# In[ ]:
+# In[90]:
 
 
 class WAE(AE):
@@ -416,7 +416,7 @@ class WAE(AE):
         self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
 
         # Compile the autoencoder
-        self.autoencoder.compile(optimizer='SGD', loss='mse')
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
 
         self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
                              monitor='val_loss', 
@@ -429,7 +429,7 @@ class WAE(AE):
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=2000,
+                epochs=100,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
@@ -442,7 +442,7 @@ class WAE(AE):
         self.map_y()       
 
 
-# In[ ]:
+# In[91]:
 
 
 class DAE(AE):
@@ -473,7 +473,7 @@ class DAE(AE):
         self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
 
         # Compile the autoencoder
-        self.autoencoder.compile(optimizer='SGD', loss='mse')
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
 
         self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
                              monitor='val_loss', 
@@ -486,7 +486,7 @@ class DAE(AE):
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=2000,
+                epochs=100,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
@@ -496,7 +496,7 @@ class DAE(AE):
         self.map_y()    
 
 
-# In[ ]:
+# In[92]:
 
 
 class WDAE(AE):
@@ -552,7 +552,7 @@ class WDAE(AE):
         self.map_y()       
 
 
-# In[ ]:
+# In[93]:
 
 
 class SAE(AE):
@@ -583,7 +583,7 @@ class SAE(AE):
         self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
 
         # Compile the autoencoder
-        self.autoencoder.compile(optimizer='SGD', loss='mse')
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
 
         # Callback to save the best model
         self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
@@ -597,7 +597,7 @@ class SAE(AE):
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=2000,
+                epochs=100,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
@@ -607,7 +607,7 @@ class SAE(AE):
 
 
 
-# In[ ]:
+# In[94]:
 
 
 class SWDAE(AE):
@@ -640,7 +640,7 @@ class SWDAE(AE):
         self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
 
         # Compile the autoencoder
-        self.autoencoder.compile(optimizer='SGD', loss='mse')
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
 
         self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
                              monitor='val_loss', 
@@ -653,7 +653,7 @@ class SWDAE(AE):
                                             random_state=1)
 
         self.history = self.autoencoder.fit(X_train, X_train,
-                epochs=2000,
+                epochs=100,
                 batch_size=8,
                 shuffle=True,
                 validation_data=(X_test, X_test),
