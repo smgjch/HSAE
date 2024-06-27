@@ -150,7 +150,7 @@ class AE():
         # Compile the autoencoder
         self.autoencoder.compile(optimizer='Adam', loss='mse')
 
-        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.h5', 
                              monitor='val_loss', 
                              verbose=1,           
                              save_best_only=True, 
@@ -180,7 +180,7 @@ class AE():
         plt.show()
 
     def encode(self):
-        self.autoencoder.load_weights(f'model/{self.type}_{self.size}_best_model.keras')
+        self.autoencoder.load_weights(f'model/{self.type}_{self.size}_best_model.h5')
         self.encoded_X_train = self.encoder.predict(self.X_train)
         self.encoded_X_test = self.encoder.predict(self.X_test)
     
@@ -418,7 +418,7 @@ class WAE(AE):
         # Compile the autoencoder
         self.autoencoder.compile(optimizer='Adam', loss='mse')
 
-        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.h5', 
                              monitor='val_loss', 
                              verbose=1,           
                              save_best_only=True, 
@@ -475,7 +475,7 @@ class DAE(AE):
         # Compile the autoencoder
         self.autoencoder.compile(optimizer='Adam', loss='mse')
 
-        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.h5', 
                              monitor='val_loss', 
                              verbose=1,           
                              save_best_only=True, 
@@ -531,7 +531,7 @@ class WDAE(AE):
         # Compile the autoencoder
         self.autoencoder.compile(optimizer='SGD', loss='mse')
 
-        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.h5', 
                              monitor='val_loss', 
                              verbose=1,           
                              save_best_only=True, 
@@ -586,7 +586,7 @@ class SAE(AE):
         self.autoencoder.compile(optimizer='Adam', loss='mse')
 
         # Callback to save the best model
-        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.h5', 
                              monitor='val_loss', 
                              verbose=1, 
                              save_best_only=True, 
@@ -642,7 +642,7 @@ class SWDAE(AE):
         # Compile the autoencoder
         self.autoencoder.compile(optimizer='Adam', loss='mse')
 
-        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.h5', 
                              monitor='val_loss', 
                              verbose=1,           
                              save_best_only=True, 
