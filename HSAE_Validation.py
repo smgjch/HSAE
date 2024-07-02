@@ -1,11 +1,29 @@
-#!/usr/bin/env python
-# coding: utf-8
+# %% [markdown]
+# ## todo:
+# KerasTuner Adaption
+# 
+# EarlyStopping callback:
+# from keras.callbacks import EarlyStopping
+# early_stopping = EarlyStopping(monitor='val_loss', patience=2)
+# model.fit(x, y, validation_split=0.2, callbacks=[early_stopping])
+# 
+# TensorBoard:
+# keras.callbacks.TensorBoard(
+#     log_dir="logs",
+#     histogram_freq=0,
+#     write_graph=True,
+#     write_images=False,
+#     write_steps_per_second=False,
+#     update_freq="epoch",
+#     profile_batch=0,
+#     embeddings_freq=0,
+#     embeddings_metadata=None,
+# )
 
+# %% [markdown]
 # # Import
 
-# In[ ]:
-
-
+# %%
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Dense
@@ -33,10 +51,7 @@ import numpy as np
 
 import json
 
-
-# In[ ]:
-
-
+# %%
 merged_df = pd.read_csv('protein_expression.csv')
 inputed_columns = ['AGID00215',
  'AGID00537',
@@ -51,17 +66,11 @@ inputed_columns = ['AGID00215',
  'AGID00547',
  'AGID00144']
 
-
-# In[ ]:
-
-
+# %%
 protein_columns = merged_df.columns.drop(["ajcc_pathologic_stage","vital_status","days_to_death","days_to_last_follow_up","case_submitter_id"])
 protein_columns
 
-
-# In[ ]:
-
-
+# %%
 describe_df = merged_df[protein_columns].describe()
 row_means = describe_df.loc['mean']
 
@@ -79,10 +88,7 @@ plt.tight_layout()
 
 plt.show()
 
-
-# In[ ]:
-
-
+# %%
 merged_df = merged_df.drop(["ajcc_pathologic_stage","vital_status","days_to_last_follow_up","case_submitter_id"], axis=1)
 other = merged_df.columns.drop("days_to_death")
 
@@ -93,22 +99,17 @@ X_train, X_test, y_train, y_test = train_test_split(merged_df[other], merged_df[
                                                     train_size=0.8,
                                                     random_state=1)
 
-
-# In[ ]:
-
-
+# %%
 y_train.hist(bins=30) 
 plt.xlabel('OS')
 plt.ylabel('Frequency')
 plt.title('Histogram of the OS')
 plt.show()
 
-
+# %% [markdown]
 # # AE
 
-# In[89]:
-
-
+# %%
 class AE():
     def __init__(self,X_train,X_test,y_train,y_test,bottleneck,size,type):
         self.X_train = X_train
@@ -180,7 +181,11 @@ class AE():
         plt.show()
 
     def encode(self):
-        self.autoencoder.load_weights(f'model/{self.type}_{self.size}_best_model.h5')
+        try:
+            self.autoencoder.load_weights(f'model/{self.type}_{self.size}_best_model.h5')
+        except FileNotFoundError:
+            self.autoencoder.load_weights(f'model/{self.type}_{self.size}_best_model.keras')
+
         self.encoded_X_train = self.encoder.predict(self.X_train)
         self.encoded_X_test = self.encoder.predict(self.X_test)
     
@@ -386,9 +391,7 @@ class AE():
 
 
 
-# In[90]:
-
-
+# %%
 class WAE(AE):
     def train(self):
     # Number of features in your dataset
@@ -442,9 +445,7 @@ class WAE(AE):
         self.map_y()       
 
 
-# In[91]:
-
-
+# %%
 class DAE(AE):
     def train(self):
     # Number of features in your dataset
@@ -496,9 +497,7 @@ class DAE(AE):
         self.map_y()    
 
 
-# In[92]:
-
-
+# %%
 class WDAE(AE):
     def train(self):
     # Number of features in your dataset
@@ -552,9 +551,7 @@ class WDAE(AE):
         self.map_y()       
 
 
-# In[93]:
-
-
+# %%
 class SAE(AE):
     def train(self):
 
@@ -586,7 +583,7 @@ class SAE(AE):
         self.autoencoder.compile(optimizer='Adam', loss='mse')
 
         # Callback to save the best model
-        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.h5', 
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
                              monitor='val_loss', 
                              verbose=1, 
                              save_best_only=True, 
@@ -607,9 +604,7 @@ class SAE(AE):
 
 
 
-# In[94]:
-
-
+# %%
 class SWDAE(AE):
     def train(self):
 
@@ -642,7 +637,7 @@ class SWDAE(AE):
         # Compile the autoencoder
         self.autoencoder.compile(optimizer='Adam', loss='mse')
 
-        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.h5', 
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
                              monitor='val_loss', 
                              verbose=1,           
                              save_best_only=True, 
@@ -663,11 +658,423 @@ class SWDAE(AE):
         self.map_y()    
 
 
+# %%
+class AsymmetricAE0(AE):
+    def train(self):
+    # Number of features in your dataset
+        n_features = len(self.X_train.columns) 
+
+
+        input_layer = Input(shape=(n_features,))
+        encoder = Dense(256, activation='relu')(input_layer)
+
+        encoder = Dense(128, activation='relu')(encoder)
+        encoder = Dense(64, activation='relu')(encoder)
+
+
+        bottleneck = Dense(self.bottleneck, activation='relu')(encoder)  
+
+        # Define the decoder (mirror the encoder)
+        decoder = Dense(64, activation='relu')(bottleneck)
+        decoder = Dense(128, activation='relu')(decoder)
+        decoder = Dense(256, activation='relu')(decoder)
+
+        self.encoder= Model(inputs=input_layer, outputs=bottleneck)
+
+        # Output layer
+        output_layer = Dense(n_features, activation='sigmoid')(decoder) 
+
+        # Define the autoencoder model
+        self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
+
+        # Compile the autoencoder
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
+
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+                             monitor='val_loss', 
+                             verbose=1,           
+                             save_best_only=True, 
+                             mode='min')         
+
+        X_train, X_test= train_test_split(self.X_train,
+                                            train_size=0.8,
+                                            random_state=1)
+
+        self.history = self.autoencoder.fit(X_train, X_train,
+                epochs=100,
+                batch_size=8,
+                shuffle=True,
+                validation_data=(X_test, X_test),
+                callbacks=[self.checkpoint])  
+        
+        self.encode()
+        self.map_y()
+
+
+
+        
+
+
+# %%
+class AsymmetricAE1(AE):
+    def train(self):
+    # Number of features in your dataset
+        n_features = len(self.X_train.columns) 
+
+
+        input_layer = Input(shape=(n_features,))
+
+        encoder = Dense(128, activation='relu')(input_layer)
+        encoder = Dense(64, activation='relu')(encoder)
+
+
+        bottleneck = Dense(self.bottleneck, activation='relu')(encoder)  
+
+        # Define the decoder (mirror the encoder)
+        decoder = Dense(64, activation='relu')(bottleneck)
+        decoder = Dense(128, activation='relu')(decoder)
+        decoder = Dense(256, activation='relu')(decoder)
+
+        self.encoder= Model(inputs=input_layer, outputs=bottleneck)
+
+        # Output layer
+        output_layer = Dense(n_features, activation='sigmoid')(decoder) 
+
+        # Define the autoencoder model
+        self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
+
+        # Compile the autoencoder
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
+
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+                             monitor='val_loss', 
+                             verbose=1,           
+                             save_best_only=True, 
+                             mode='min')         
+
+        X_train, X_test= train_test_split(self.X_train,
+                                            train_size=0.8,
+                                            random_state=1)
+
+        self.history = self.autoencoder.fit(X_train, X_train,
+                epochs=100,
+                batch_size=8,
+                shuffle=True,
+                validation_data=(X_test, X_test),
+                callbacks=[self.checkpoint])  
+        
+        self.encode()
+        self.map_y()
+
+
+
+        
+
+
+# %%
+class AsymmetricAE2(AE):
+    def train(self):
+    # Number of features in your dataset
+        n_features = len(self.X_train.columns) 
+
+
+        input_layer = Input(shape=(n_features,))
+
+        encoder = Dense(128, activation='relu')(input_layer)
+        encoder = Dense(64, activation='relu')(encoder)
+
+
+        bottleneck = Dense(self.bottleneck, activation='relu')(encoder)  
+
+        # Define the decoder (mirror the encoder)
+        decoder = Dense(32, activation='relu')(bottleneck)
+
+        decoder = Dense(64, activation='relu')(decoder)
+        decoder = Dense(128, activation='relu')(decoder)
+        decoder = Dense(256, activation='relu')(decoder)
+
+        self.encoder= Model(inputs=input_layer, outputs=bottleneck)
+
+        # Output layer
+        output_layer = Dense(n_features, activation='sigmoid')(decoder) 
+
+        # Define the autoencoder model
+        self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
+
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
+
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+                             monitor='val_loss', 
+                             verbose=1,           
+                             save_best_only=True, 
+                             mode='min')         
+
+        X_train, X_test= train_test_split(self.X_train,
+                                            train_size=0.8,
+                                            random_state=1)
+
+        self.history = self.autoencoder.fit(X_train, X_train,
+                epochs=100,
+                batch_size=8,
+                shuffle=True,
+                validation_data=(X_test, X_test),
+                callbacks=[self.checkpoint])  
+        
+        self.encode()
+        self.map_y()
+
+
+
+        
+
+
+# %%
+class AsymmetricAE3(AE):
+    def train(self):
+    # Number of features in your dataset
+        n_features = len(self.X_train.columns) 
+
+
+        input_layer = Input(shape=(n_features,))
+
+        encoder = Dense(256, activation='relu')(input_layer)
+        encoder = Dense(64, activation='relu')(encoder)
+
+
+        bottleneck = Dense(self.bottleneck, activation='relu')(encoder)  
+
+        # Define the decoder (mirror the encoder)
+
+        decoder = Dense(64, activation='relu')(bottleneck)
+        decoder = Dense(128, activation='relu')(decoder)
+        decoder = Dense(256, activation='relu')(decoder)
+
+        self.encoder= Model(inputs=input_layer, outputs=bottleneck)
+
+        # Output layer
+        output_layer = Dense(n_features, activation='sigmoid')(decoder) 
+
+        # Define the autoencoder model
+        self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
+
+        # Compile the autoencoder
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
+
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+                             monitor='val_loss', 
+                             verbose=1,           
+                             save_best_only=True, 
+                             mode='min')         
+
+        X_train, X_test= train_test_split(self.X_train,
+                                            train_size=0.8,
+                                            random_state=1)
+
+        self.history = self.autoencoder.fit(X_train, X_train,
+                epochs=100,
+                batch_size=8,
+                shuffle=True,
+                validation_data=(X_test, X_test),
+                callbacks=[self.checkpoint])  
+        
+        self.encode()
+        self.map_y()
+
+
+
+        
+
+
+# %%
+class AsymmetricAE4(AE):
+    def train(self):
+    # Number of features in your dataset
+        n_features = len(self.X_train.columns) 
+
+
+        input_layer = Input(shape=(n_features,))
+
+        encoder = Dense(256, activation='relu')(input_layer)
+        encoder = Dense(64, activation='relu')(encoder)
+        encoder = Dense(32, activation='relu')(encoder)
+
+
+        bottleneck = Dense(self.bottleneck, activation='relu')(encoder)  
+
+        # Define the decoder (mirror the encoder)
+        decoder = Dense(32, activation='relu')(bottleneck)
+
+        decoder = Dense(64, activation='relu')(decoder)
+
+
+        self.encoder= Model(inputs=input_layer, outputs=bottleneck)
+
+        # Output layer
+        output_layer = Dense(n_features, activation='sigmoid')(decoder) 
+
+        # Define the autoencoder model
+        self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
+
+        # Compile the autoencoder
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
+
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+                             monitor='val_loss', 
+                             verbose=1,           
+                             save_best_only=True, 
+                             mode='min')         
+
+        X_train, X_test= train_test_split(self.X_train,
+                                            train_size=0.8,
+                                            random_state=1)
+
+        self.history = self.autoencoder.fit(X_train, X_train,
+                epochs=100,
+                batch_size=8,
+                shuffle=True,
+                validation_data=(X_test, X_test),
+                callbacks=[self.checkpoint])  
+        
+        self.encode()
+        self.map_y()
+
+
+
+        
+
+
+# %%
+class AsymmetricAE5(AE):
+    def train(self):
+    # Number of features in your dataset
+        n_features = len(self.X_train.columns) 
+
+
+        input_layer = Input(shape=(n_features,))
+
+        encoder = Dense(256, activation='relu')(input_layer)
+        encoder = Dense(64, activation='relu')(encoder)
+        encoder = Dense(32, activation='relu')(encoder)
+
+
+        bottleneck = Dense(self.bottleneck, activation='relu')(encoder)  
+
+        # Define the decoder (mirror the encoder)
+
+        decoder = Dense(64, activation='relu')(bottleneck)
+
+
+        self.encoder= Model(inputs=input_layer, outputs=bottleneck)
+
+        # Output layer
+        output_layer = Dense(n_features, activation='sigmoid')(decoder) 
+
+        # Define the autoencoder model
+        self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
+
+        # Compile the autoencoder
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
+
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+                             monitor='val_loss', 
+                             verbose=1,           
+                             save_best_only=True, 
+                             mode='min')         
+
+        X_train, X_test= train_test_split(self.X_train,
+                                            train_size=0.8,
+                                            random_state=1)
+
+        self.history = self.autoencoder.fit(X_train, X_train,
+                epochs=100,
+                batch_size=8,
+                shuffle=True,
+                validation_data=(X_test, X_test),
+                callbacks=[self.checkpoint])  
+        
+        self.encode()
+        self.map_y()
+
+
+
+        
+
+
+# %%
+class AsymmetricAE6(AE):
+    def train(self):
+    # Number of features in your dataset
+        n_features = len(self.X_train.columns) 
+
+
+        input_layer = Input(shape=(n_features,))
+
+        encoder = Dense(256, activation='relu')(input_layer)
+        encoder = Dense(64, activation='relu')(encoder)
+        encoder = Dense(32, activation='relu')(encoder)
+
+
+        bottleneck = Dense(self.bottleneck, activation='relu')(encoder)  
+
+        # Define the decoder (mirror the encoder)
+        decoder = Dense(32, activation='relu')(bottleneck)
+
+
+
+        self.encoder= Model(inputs=input_layer, outputs=bottleneck)
+
+        # Output layer
+        output_layer = Dense(n_features, activation='sigmoid')(decoder) 
+
+        # Define the autoencoder model
+        self.autoencoder = Model(inputs=input_layer, outputs=output_layer)
+
+        # Compile the autoencoder
+        self.autoencoder.compile(optimizer='Adam', loss='mse')
+
+        self.checkpoint = ModelCheckpoint(f'model/{self.type}_{self.size}_best_model.keras', 
+                             monitor='val_loss', 
+                             verbose=1,           
+                             save_best_only=True, 
+                             mode='min')         
+
+        X_train, X_test= train_test_split(self.X_train,
+                                            train_size=0.8,
+                                            random_state=1)
+
+        self.history = self.autoencoder.fit(X_train, X_train,
+                epochs=100,
+                batch_size=8,
+                shuffle=True,
+                validation_data=(X_test, X_test),
+                callbacks=[self.checkpoint])  
+        
+        self.encode()
+        self.map_y()
+
+
+
+        
+
+
+# %%
+class RAW(AE):
+    def train(self):
+        self.map_y()
+
+        self.encoded_X_train = self.X_train.values
+        self.encoded_X_test = self.X_test.values
+
+    
+
+
+        
+
+
+# %% [markdown]
 # # Dispatcher
 
-# In[ ]:
-
-
+# %%
 def dispatcher(model,type,min_bottleneck, max_bottleneck,step =1):
     current_size = min_bottleneck
     AEs = []
@@ -687,53 +1094,88 @@ def dispatcher(model,type,min_bottleneck, max_bottleneck,step =1):
     return
     
 
+# %%
+# dispatcher(AE,"AE",6,48)
 
-# In[ ]:
+# %%
+# dispatcher(WAE,"WAE",6,48)
 
+# %%
+# dispatcher(DAE,"DAE",6,48)
 
-dispatcher(AE,"AE",6,48)
+# %%
+# dispatcher(WDAE,"WDAE",6,48)
 
+# %%
+# dispatcher(SAE,"SAE",6,48)
 
-# In[ ]:
+# %%
+# dispatcher(SWDAE,"SWDAE",6,48)
 
-
-dispatcher(WAE,"WAE",6,48)
-
-
-# In[ ]:
-
-
-dispatcher(DAE,"DAE",6,48)
-
-
-# In[ ]:
-
-
-dispatcher(WDAE,"WDAE",6,48)
+# %%
+# dispatcher(AsymmetricAE0,"AsymmetricAE0",6,48)
 
 
-# In[ ]:
+# %%
+# dispatcher(AsymmetricAE1,"AsymmetricAE1",6,48)
+
+# %%
+# dispatcher(AsymmetricAE2,"AsymmetricAE2",6,48)
+
+# %%
+# dispatcher(AsymmetricAE3,"AsymmetricAE3",6,48)
+
+# %%
+# dispatcher(AsymmetricAE4,"AsymmetricAE4",6,48)
+
+# %%
+# dispatcher(AsymmetricAE5,"AsymmetricAE5",6,48)
+
+# %%
+# dispatcher(AsymmetricAE6,"AsymmetricAE6",6,48)
 
 
-dispatcher(SAE,"SAE",6,48)
+# %%
+# dispatcher(RAW,"RAW",6,48)
 
-
-# In[ ]:
-
-
-dispatcher(SWDAE,"SWDAE",6,48)
-
-
+# %% [markdown]
 # # Performance
 
-# In[ ]:
-
-
+# %%
+import json
 import os
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# %%
+def print_statistics(data,filename):
+    # overall_means = {classifier: np.mean(list(values.values())) for classifier, values in data.items()}
 
 
-# In[ ]:
 
+    # Calculate statistics for each classifier
+    statistics = {}
+    for classifier, values in data.items():
+        values_list = list(values.values())
+        statistics[classifier] = {
+            'Mean': np.mean(values_list),
+            'Standard Deviation': np.std(values_list),
+            # 'Minimum': np.min(values_list),
+            'Maximum': np.max(values_list),
+            # '25th Percentile': np.percentile(values_list, 25),
+            # '50th Percentile (Median)': np.median(values_list),
+            # '75th Percentile': np.percentile(values_list, 75)
+        }
+
+    # Convert statistics dictionary to a DataFrame for better visualization
+    stats_df = pd.DataFrame(statistics).T
+    # overall_mean = np.mean(stats_df["Mean"])
+    print(f"--------------------- {filename} ----------------------")
+    # print(f"Overall_mean {overall_means}")
+    print(stats_df)
+
+# %%
 
 # Directory containing the JSON files
 directory = 'output'
@@ -775,30 +1217,138 @@ for filename in os.listdir(directory):
                     size = int(bottleneck.split('_')[-1])
                     for classifier, score in scores.items():
                         data[classifier][size] = score
+                        
+            print_statistics(data,filename)
+            # plot_single_file(data, f'Performance from {filename}')
             all_data.append(data)
-            plot_single_file(data, f'Performance from {filename}')
 
-# Plotting combined graph
-plt.figure(figsize=(14, 8))
-for i, data in enumerate(all_data):
-    for classifier, bottlenecks in data.items():
-        x = sorted(bottlenecks.keys())
-        y = [bottlenecks[size] for size in x]
-        plt.plot(x, y, label=f'{classifier} (File {i+1})')
-        max_index = y.index(max(y))
-        plt.plot(x[max_index], y[max_index], 'ro')  # Mark the highest point
-        plt.text(x[max_index], y[max_index], f'{y[max_index]:.2f}', fontsize=9, ha='right')
+# # Plotting combined graph
+# plt.figure(figsize=(14, 8))
+# for i, data in enumerate(all_data):
+#     for classifier, bottlenecks in data.items():
+#         x = sorted(bottlenecks.keys())
+#         y = [bottlenecks[size] for size in x]
+#         plt.plot(x, y, label=f'{classifier} (File {i+1})')
+#         max_index = y.index(max(y))
+#         plt.plot(x[max_index], y[max_index], 'ro')  # Mark the highest point
+#         plt.text(x[max_index], y[max_index], f'{y[max_index]:.2f}', fontsize=9, ha='right')
 
-plt.xlabel('Bottleneck Size')
-plt.ylabel('Accuracy')
-plt.title('Combined Classifier Performance by Bottleneck Size')
-plt.legend()
-plt.grid(True)
-plt.show()
+# plt.xlabel('Bottleneck Size')
+# plt.ylabel('Accuracy')
+# plt.title('Combined Classifier Performance by Bottleneck Size')
+# plt.legend()
+# plt.grid(True)
+# plt.show()
+
+# %% [markdown]
+# ## Obtained a record 0f 0.69 at AsymmetricAE4 for RandomForest and XGBoost of bottle neck 36, then applying hyperparameter optimize
+
+# %%
+import optuna
+from math import inf
+
+# %%
+class OptimizedAsymmetricAE(AsymmetricAE4):
+    def __init__(self, X_train, X_test, y_train, y_test, bottleneck = 36, size = "36", type="OptimizedAsymmetricAE"):
+        super().__init__(X_train, X_test, y_train, y_test, bottleneck, size, type)
+    
+    
+    def cross_validation_hyperparameter_optimization(self,fold=5):
 
 
+
+        RF_study = optuna.create_study(direction='maximize')
+        RF_study.optimize(self.RF_objective, n_trials=100)
+
+        # Retrieve the best trial
+        best_trial = RF_study.best_trial
+
+        # Print the best hyperparameters and the best accuracy
+        print("RF Result")
+
+        print("Best hyperparameters: ", best_trial.params)
+        print("Best accuracy: ", best_trial.value)
+
+
+
+        XGBoost_study = optuna.create_study(direction='maximize')
+        XGBoost_study.optimize(self.XGBoost_objective, n_trials=100)
+        # Retrieve the best trial
+        best_trial = XGBoost_study.best_trial
+
+        # Print the best hyperparameters and the best accuracy
+        print("XGBoost Result")
+        print("Best hyperparameters: ", best_trial.params)
+        print("Best accuracy: ", best_trial.value)
+
+
+    def RF_objective(self,trial):
+        # Load data
+
+        # Suggest hyperparameters
+        param = {
+            'n_estimators': trial.suggest_int('n_estimators', 10, 200),
+            'max_depth': trial.suggest_int('max_depth', 2, 32),
+            'min_samples_split': trial.suggest_int('min_samples_split', 2, 16),
+            'min_samples_leaf': trial.suggest_int('min_samples_leaf', 1, 16),
+            'max_features': trial.suggest_categorical('max_features', [1,inf])
+        }
+
+        # Create the model
+        clf = RandomForestClassifier(**param)
+        
+        # Evaluate the model using cross-validation
+        score = cross_val_score(clf, self.encoded_X_train, self.y_trian_in_bin, n_jobs=-1, cv=3, scoring='accuracy')
+        accuracy = score.mean()
+        return accuracy
+
+
+    def XGBoost_objective(self,trial):
+        
+        # Suggest hyperparameters
+        param = {
+            'verbosity': 0,
+            'objective': 'binary:logistic',
+            'eval_metric': 'auc',
+            'tree_method': 'hist',  # faster with large datasets
+            'booster': trial.suggest_categorical('booster', ['gbtree', 'dart']),
+            'lambda': trial.suggest_loguniform('lambda', 1e-8, 1.0),
+            'alpha': trial.suggest_loguniform('alpha', 1e-8, 1.0),
+            'subsample': trial.suggest_float('subsample', 0.5, 1.0),
+            'colsample_bytree': trial.suggest_float('colsample_bytree', 0.5, 1.0),
+            'learning_rate': trial.suggest_loguniform('learning_rate', 0.01, 0.1),
+            'n_estimators': trial.suggest_int('n_estimators', 100, 1000),
+            'max_depth': trial.suggest_int('max_depth', 3, 9),
+            'min_child_weight': trial.suggest_int('min_child_weight', 1, 10),
+        }
+
+        if param['booster'] == 'dart':
+            param['sample_type'] = trial.suggest_categorical('sample_type', ['uniform', 'weighted'])
+            param['normalize_type'] = trial.suggest_categorical('normalize_type', ['tree', 'forest'])
+            param['rate_drop'] = trial.suggest_float('rate_drop', 0.0, 0.3)
+            param['skip_drop'] = trial.suggest_float('skip_drop', 0.0, 0.3)
+        
+        # Create the model
+        model = xgb.XGBClassifier(**param)
+        
+        # Evaluate the model using cross-validation
+        score = cross_val_score(model, self.encoded_X_train, self.y_trian_in_bin, n_jobs=-1, cv=3, scoring='accuracy')
+        accuracy = score.mean()
+        return accuracy
+
+# %%
+AE_to_optimize = OptimizedAsymmetricAE(X_train=X_train,X_test=X_test,y_train=y_train,y_test=y_test)
+AE_to_optimize.train()
+AE_to_optimize.cross_validation_hyperparameter_optimization()
+
+# %% [markdown]
+# # Hyperparameter Optimization
+# 
+
+# %% [markdown]
 # # Resources Investigation:
 
+# %% [markdown]
 # ICGC:
 # https://dcc.icgc.org/repositories?filters=%7B%22file%22:%7B%20%22projectCode%22:%7B%22is%22:%5B%22HNSC-US%22%5D%7D%7D%7D
 # 
@@ -812,36 +1362,48 @@ plt.show()
 #  CNSM  88
 #  StGV  88
 
+# %% [markdown]
 # TCPA:
 # https://www.tcpaportal.org/tcpa/download.html
 # 
 # TCGA of 2018, with L4(normalized across RPPA batches therefore enable pan-cancer)
 
+# %% [markdown]
 # PDC:
 # https://proteomic.datacommons.cancer.gov/pdc/browse
 # 3 studies, but Mass Spectrum not RPPA, therefore only contains Peptide result. do have clinincal though
 
+# %% [markdown]
 # HNSCC PDX: 
 # https://aacrjournals.org/mcr/article/14/3/278/89624/Proteomic-Characterization-of-Head-and-Neck-Cancer
 # RPPA, but on mention how to acess and probabaly wound not have clinical since the read from transplated rats.
 
+# %% [markdown]
 # HAP: Reference RNA and protein from healthy samples:
 # https://www.proteinatlas.org/about/download
 
+# %% [markdown]
 # Pride:Full MS sets
 # https://www.ebi.ac.uk/pride/archive?keyword=HNSCC,RPPA&sortDirection=DESC&page=0&pageSize=20
 
+# %% [markdown]
 # Paper HNSCC: RPPA but only target 60 specific protein
 # https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3070553/
 
+# %% [markdown]
 # GEO: Some Protein profiling by protein array (RPPA), no HNSCC
 # https://www.ncbi.nlm.nih.gov/geo/browse/
 
+# %% [markdown]
 # ArraryExpress: RPPA for GBM, lung cancer, breast cancer
 # https://www.ebi.ac.uk/biostudies/arrayexpress/studies?query=RPPA
 
+# %% [markdown]
 # FANTOM6 Experiment Index: RNA-Seq
 # https://fantom.gsc.riken.jp/6/experiment_index/#/
 
+# %% [markdown]
 # Resources index: 
 # https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6971871/
+
+
