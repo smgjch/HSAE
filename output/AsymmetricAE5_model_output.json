@@ -1,6 +1,6 @@
 [
     {
-        "WeeiedAE5 bottleneck_6": {
+        "AsymmetricAE5 bottleneck_6": {
             "LogisticRegression": 0.5175384615384615,
             "SVM": 0.5253846153846153,
             "RandomForest": 0.5793846153846153,
@@ -14,7 +14,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_7": {
+        "AsymmetricAE5 bottleneck_7": {
             "LogisticRegression": 0.5252307692307692,
             "SVM": 0.5638461538461538,
             "RandomForest": 0.4827692307692308,
@@ -28,7 +28,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_8": {
+        "AsymmetricAE5 bottleneck_8": {
             "LogisticRegression": 0.5867692307692309,
             "SVM": 0.583076923076923,
             "RandomForest": 0.6064615384615385,
@@ -42,7 +42,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_9": {
+        "AsymmetricAE5 bottleneck_9": {
             "LogisticRegression": 0.5175384615384615,
             "SVM": 0.564,
             "RandomForest": 0.5746153846153847,
@@ -56,7 +56,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_10": {
+        "AsymmetricAE5 bottleneck_10": {
             "LogisticRegression": 0.5524615384615383,
             "SVM": 0.6024615384615384,
             "RandomForest": 0.6058461538461538,
@@ -70,7 +70,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_11": {
+        "AsymmetricAE5 bottleneck_11": {
             "LogisticRegression": 0.5792307692307692,
             "SVM": 0.6024615384615384,
             "RandomForest": 0.6258461538461538,
@@ -84,7 +84,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_12": {
+        "AsymmetricAE5 bottleneck_12": {
             "LogisticRegression": 0.5946153846153845,
             "SVM": 0.6098461538461539,
             "RandomForest": 0.6407692307692308,
@@ -98,7 +98,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_13": {
+        "AsymmetricAE5 bottleneck_13": {
             "LogisticRegression": 0.5672307692307692,
             "SVM": 0.5984615384615384,
             "RandomForest": 0.5947692307692307,
@@ -112,7 +112,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_14": {
+        "AsymmetricAE5 bottleneck_14": {
             "LogisticRegression": 0.6138461538461538,
             "SVM": 0.5983076923076922,
             "RandomForest": 0.6140000000000001,
@@ -126,7 +126,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_15": {
+        "AsymmetricAE5 bottleneck_15": {
             "LogisticRegression": 0.6212307692307693,
             "SVM": 0.6213846153846154,
             "RandomForest": 0.6447692307692308,
@@ -140,7 +140,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_16": {
+        "AsymmetricAE5 bottleneck_16": {
             "LogisticRegression": 0.5750769230769232,
             "SVM": 0.61,
             "RandomForest": 0.579076923076923,
@@ -154,7 +154,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_17": {
+        "AsymmetricAE5 bottleneck_17": {
             "LogisticRegression": 0.6098461538461539,
             "SVM": 0.6215384615384615,
             "RandomForest": 0.6216923076923078,
@@ -168,7 +168,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_18": {
+        "AsymmetricAE5 bottleneck_18": {
             "LogisticRegression": 0.5944615384615386,
             "SVM": 0.5638461538461538,
             "RandomForest": 0.6289230769230768,
@@ -182,7 +182,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_19": {
+        "AsymmetricAE5 bottleneck_19": {
             "LogisticRegression": 0.6021538461538463,
             "SVM": 0.5636923076923077,
             "RandomForest": 0.5486153846153845,
@@ -196,7 +196,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_20": {
+        "AsymmetricAE5 bottleneck_20": {
             "LogisticRegression": 0.5329230769230768,
             "SVM": 0.571076923076923,
             "RandomForest": 0.5949230769230769,
@@ -210,7 +210,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_21": {
+        "AsymmetricAE5 bottleneck_21": {
             "LogisticRegression": 0.5716923076923076,
             "SVM": 0.5946153846153847,
             "RandomForest": 0.6215384615384616,
@@ -224,7 +224,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_22": {
+        "AsymmetricAE5 bottleneck_22": {
             "LogisticRegression": 0.6178461538461538,
             "SVM": 0.5755384615384616,
             "RandomForest": 0.6058461538461538,
@@ -238,7 +238,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_23": {
+        "AsymmetricAE5 bottleneck_23": {
             "LogisticRegression": 0.5864615384615384,
             "SVM": 0.5826153846153848,
             "RandomForest": 0.594923076923077,
@@ -252,7 +252,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_24": {
+        "AsymmetricAE5 bottleneck_24": {
             "LogisticRegression": 0.6063076923076923,
             "SVM": 0.571076923076923,
             "RandomForest": 0.6176923076923078,
@@ -266,7 +266,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_25": {
+        "AsymmetricAE5 bottleneck_25": {
             "LogisticRegression": 0.578923076923077,
             "SVM": 0.6063076923076922,
             "RandomForest": 0.5673846153846155,
@@ -280,7 +280,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_26": {
+        "AsymmetricAE5 bottleneck_26": {
             "LogisticRegression": 0.5903076923076924,
             "SVM": 0.5673846153846155,
             "RandomForest": 0.6447692307692308,
@@ -294,7 +294,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_27": {
+        "AsymmetricAE5 bottleneck_27": {
             "LogisticRegression": 0.6023076923076923,
             "SVM": 0.614,
             "RandomForest": 0.6487692307692308,
@@ -308,7 +308,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_28": {
+        "AsymmetricAE5 bottleneck_28": {
             "LogisticRegression": 0.5867692307692307,
             "SVM": 0.5675384615384615,
             "RandomForest": 0.6287692307692307,
@@ -322,7 +322,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_29": {
+        "AsymmetricAE5 bottleneck_29": {
             "LogisticRegression": 0.6061538461538463,
             "SVM": 0.5792307692307693,
             "RandomForest": 0.6210769230769231,
@@ -336,7 +336,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_30": {
+        "AsymmetricAE5 bottleneck_30": {
             "LogisticRegression": 0.6292307692307693,
             "SVM": 0.5943076923076923,
             "RandomForest": 0.6370769230769231,
@@ -350,7 +350,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_31": {
+        "AsymmetricAE5 bottleneck_31": {
             "LogisticRegression": 0.6024615384615385,
             "SVM": 0.6218461538461538,
             "RandomForest": 0.590923076923077,
@@ -364,7 +364,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_32": {
+        "AsymmetricAE5 bottleneck_32": {
             "LogisticRegression": 0.5827692307692308,
             "SVM": 0.6021538461538463,
             "RandomForest": 0.6290769230769231,
@@ -378,7 +378,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_33": {
+        "AsymmetricAE5 bottleneck_33": {
             "LogisticRegression": 0.5516923076923077,
             "SVM": 0.5907692307692307,
             "RandomForest": 0.614,
@@ -392,7 +392,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_34": {
+        "AsymmetricAE5 bottleneck_34": {
             "LogisticRegression": 0.6370769230769231,
             "SVM": 0.6138461538461539,
             "RandomForest": 0.6101538461538462,
@@ -406,7 +406,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_35": {
+        "AsymmetricAE5 bottleneck_35": {
             "LogisticRegression": 0.5944615384615384,
             "SVM": 0.5867692307692307,
             "RandomForest": 0.5866153846153846,
@@ -420,7 +420,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_36": {
+        "AsymmetricAE5 bottleneck_36": {
             "LogisticRegression": 0.6136923076923078,
             "SVM": 0.6216923076923077,
             "RandomForest": 0.6138461538461539,
@@ -434,7 +434,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_37": {
+        "AsymmetricAE5 bottleneck_37": {
             "LogisticRegression": 0.5753846153846154,
             "SVM": 0.6255384615384616,
             "RandomForest": 0.6369230769230768,
@@ -448,7 +448,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_38": {
+        "AsymmetricAE5 bottleneck_38": {
             "LogisticRegression": 0.5752307692307692,
             "SVM": 0.6063076923076923,
             "RandomForest": 0.6330769230769231,
@@ -462,7 +462,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_39": {
+        "AsymmetricAE5 bottleneck_39": {
             "LogisticRegression": 0.61,
             "SVM": 0.5792307692307692,
             "RandomForest": 0.5749230769230769,
@@ -476,7 +476,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_40": {
+        "AsymmetricAE5 bottleneck_40": {
             "LogisticRegression": 0.6061538461538462,
             "SVM": 0.5867692307692307,
             "RandomForest": 0.6061538461538462,
@@ -490,7 +490,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_41": {
+        "AsymmetricAE5 bottleneck_41": {
             "LogisticRegression": 0.6175384615384616,
             "SVM": 0.5907692307692307,
             "RandomForest": 0.6133846153846154,
@@ -504,7 +504,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_42": {
+        "AsymmetricAE5 bottleneck_42": {
             "LogisticRegression": 0.5753846153846154,
             "SVM": 0.5983076923076924,
             "RandomForest": 0.6101538461538462,
@@ -518,7 +518,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_43": {
+        "AsymmetricAE5 bottleneck_43": {
             "LogisticRegression": 0.6100000000000001,
             "SVM": 0.6252307692307693,
             "RandomForest": 0.5943076923076923,
@@ -532,7 +532,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_44": {
+        "AsymmetricAE5 bottleneck_44": {
             "LogisticRegression": 0.6064615384615383,
             "SVM": 0.618,
             "RandomForest": 0.6255384615384615,
@@ -546,7 +546,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_45": {
+        "AsymmetricAE5 bottleneck_45": {
             "LogisticRegression": 0.6176923076923078,
             "SVM": 0.6216923076923077,
             "RandomForest": 0.6638461538461539,
@@ -560,7 +560,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_46": {
+        "AsymmetricAE5 bottleneck_46": {
             "LogisticRegression": 0.5981538461538461,
             "SVM": 0.5635384615384617,
             "RandomForest": 0.5980000000000001,
@@ -574,7 +574,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_47": {
+        "AsymmetricAE5 bottleneck_47": {
             "LogisticRegression": 0.5713846153846154,
             "SVM": 0.5867692307692307,
             "RandomForest": 0.5866153846153846,
@@ -588,7 +588,7 @@
         }
     },
     {
-        "WeeiedAE5 bottleneck_48": {
+        "AsymmetricAE5 bottleneck_48": {
             "LogisticRegression": 0.6450769230769231,
             "SVM": 0.6372307692307693,
             "RandomForest": 0.6523076923076923,
