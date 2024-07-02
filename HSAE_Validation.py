@@ -1250,15 +1250,10 @@ from tensorflow.keras.models import load_model
 # %%
 
 # Load the entire autoencoder model
-autoencoder = load_model('model/OptimizedAsymmetricAE_36_best_model.keras')
+autoencoder = load_model('model/AsymmetricAE4_bottleneck_36_best_model.keras')
 
 # Print the summary to see layer names
 print(autoencoder.summary())
-
-
-# %%
-encoder_model = Model(inputs=autoencoder.input,
-                      outputs=autoencoder.get_layer('dense_17').output)
 
 
 # %%
@@ -1267,9 +1262,9 @@ class OptimizedAsymmetricAE(AsymmetricAE4):
         super().__init__(X_train, X_test, y_train, y_test, bottleneck, size, type)
     
     def encode(self):
-        self.autoencoder = load_model('model/OptimizedAsymmetricAE_36_best_model.keras')
+        self.autoencoder = load_model('model/AsymmetricAE4_bottleneck_36_best_model.keras')
         self.encoder = Model(inputs=autoencoder.input,
-                      outputs=autoencoder.get_layer('dense_17').output)
+                      outputs=autoencoder.get_layer('dense_5816').output)
 
         self.encoded_X_train = self.encoder.predict(self.X_train)
         self.encoded_X_test = self.encoder.predict(self.X_test)
