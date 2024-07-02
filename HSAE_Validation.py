@@ -1245,14 +1245,34 @@ for filename in os.listdir(directory):
 
 # %%
 import optuna
-from math import inf
+from tensorflow.keras.models import load_model
+
+# %%
+
+# Load the entire autoencoder model
+autoencoder = load_model('model/OptimizedAsymmetricAE_36_best_model.keras')
+
+# Print the summary to see layer names
+print(autoencoder.summary())
+
+
+# %%
+encoder_model = Model(inputs=autoencoder.input,
+                      outputs=autoencoder.get_layer('dense_17').output)
+
 
 # %%
 class OptimizedAsymmetricAE(AsymmetricAE4):
-    def __init__(self, X_train, X_test, y_train, y_test, bottleneck = 36, size = "36", type="OptimizedAsymmetricAE"):
+    def __init__(self, X_train, X_test, y_train, y_test, bottleneck = 36, size = "bottleneck_36", type="AsymmetricAE4"):
         super().__init__(X_train, X_test, y_train, y_test, bottleneck, size, type)
     
-    
+    def encode(self):
+        self.autoencoder = load_model('model/OptimizedAsymmetricAE_36_best_model.keras')
+        self.encoder = Model(inputs=autoencoder.input,
+                      outputs=autoencoder.get_layer('dense_17').output)
+
+        self.encoded_X_train = self.encoder.predict(self.X_train)
+        self.encoded_X_test = self.encoder.predict(self.X_test)
     def cross_validation_hyperparameter_optimization(self,fold=5):
 
 
@@ -1291,7 +1311,7 @@ class OptimizedAsymmetricAE(AsymmetricAE4):
             'max_depth': trial.suggest_int('max_depth', 2, 32),
             'min_samples_split': trial.suggest_int('min_samples_split', 2, 16),
             'min_samples_leaf': trial.suggest_int('min_samples_leaf', 1, 16),
-            'max_features': trial.suggest_categorical('max_features', [1,inf])
+            'max_features': trial.suggest_categorical('max_features', [1,600])
         }
 
         # Create the model
@@ -1338,8 +1358,12 @@ class OptimizedAsymmetricAE(AsymmetricAE4):
 
 # %%
 AE_to_optimize = OptimizedAsymmetricAE(X_train=X_train,X_test=X_test,y_train=y_train,y_test=y_test)
-AE_to_optimize.train()
+AE_to_optimize.encode()
+AE_to_optimize.map_y()
 AE_to_optimize.cross_validation_hyperparameter_optimization()
+
+# %% [markdown]
+# AsymmetricAE4_bottleneck_36_best_model.keras
 
 # %% [markdown]
 # # Hyperparameter Optimization
